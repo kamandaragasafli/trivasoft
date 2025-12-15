@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useEffect, useRef } from 'react'
 import './Home.css'
+import heroVideo from '../logo/artistic-video.mp4'
 
 const Home = () => {
   const heroRef = useRef(null)
@@ -48,7 +49,7 @@ const Home = () => {
             muted 
             playsInline
           >
-            <source src="https://demo.awaikenthemes.com/assets/videos/artistic-video.mp4" type="video/mp4" />
+            <source src={heroVideo} type="video/mp4" />
           </video>
           <div className="hero-video-overlay"></div>
         </div>
