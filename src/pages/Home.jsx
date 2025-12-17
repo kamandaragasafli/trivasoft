@@ -48,6 +48,7 @@ const Home = () => {
             loop 
             muted 
             playsInline
+            aria-label="TrivaSoft rəqəmsal həllər arxa plan videosu"
           >
             <source src={heroVideo} type="video/mp4" />
           </video>
@@ -107,7 +108,8 @@ const Home = () => {
 
       <section className="features">
         <div className="features-container">
-          <div 
+          <Link 
+            to="/xidmetler/ai"
             className="feature-card" 
             ref={(el) => (featureCardsRef.current[0] = el)}
           >
@@ -117,8 +119,9 @@ const Home = () => {
             <h3>AI Avtomatlaşdırma</h3>
             <p>Müasir AI texnologiyaları ilə biznes proseslərinizi avtomatlaşdırın</p>
             <div className="feature-overlay"></div>
-          </div>
-          <div 
+          </Link>
+          <Link 
+            to="/xidmetler/erp"
             className="feature-card" 
             ref={(el) => (featureCardsRef.current[1] = el)}
           >
@@ -128,8 +131,9 @@ const Home = () => {
             <h3>ERP Həlləri</h3>
             <p>Biznesinizi idarə etmək üçün güclü və effektiv ERP sistemləri</p>
             <div className="feature-overlay"></div>
-          </div>
-          <div 
+          </Link>
+          <Link 
+            to="/xidmetler/marketinq"
             className="feature-card" 
             ref={(el) => (featureCardsRef.current[2] = el)}
           >
@@ -139,7 +143,19 @@ const Home = () => {
             <h3>Marketinq</h3>
             <p>Rəqəmsal marketinq strategiyaları ilə müştərilərinizə çatın</p>
             <div className="feature-overlay"></div>
-          </div>
+          </Link>
+          <Link 
+            to="/xidmetler/web"
+            className="feature-card" 
+            ref={(el) => (featureCardsRef.current[3] = el)}
+          >
+            <div className="feature-icon-wrapper">
+              <div className="feature-icon">🌐</div>
+            </div>
+            <h3>Web</h3>
+            <p>Müasir və performanslı veb saytlar, veb tətbiqlər və e-ticarət platformaları</p>
+            <div className="feature-overlay"></div>
+          </Link>
         </div>
       </section>
     </div>

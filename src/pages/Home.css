@@ -280,6 +280,9 @@
   transform: translateY(50px) scale(0.9);
   border: 1px solid rgba(0, 245, 160, 0.2);
   color: var(--color-text-light);
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
 }
 
 .feature-card.animate-in {
@@ -297,6 +300,10 @@
 
 .feature-card:nth-child(3).animate-in {
   transition-delay: 0.3s;
+}
+
+.feature-card:nth-child(4).animate-in {
+  transition-delay: 0.4s;
 }
 
 .feature-card:hover {

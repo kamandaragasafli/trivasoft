@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import emailjs from '@emailjs/browser'
 import './Contact.css'
 
 const Contact = () => {
@@ -8,6 +9,8 @@ const Contact = () => {
     phone: '',
     message: ''
   })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState(null)
   const heroRef = useRef(null)
   const contactInfoRef = useRef(null)
   const formRef = useRef(null)
@@ -48,17 +51,139 @@ const Contact = () => {
     })
   }
 
-  const handleSubmit = (e) => {
+  // EmailJS artık otomatik olarak başlatılıyor, init gerekmiyor
+
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    // Form göndərmə məntiqini buraya əlavə edə bilərsiniz
-    console.log('Form göndərildi:', formData)
-    alert('Mesajınız göndərildi! Tezliklə sizinlə əlaqə saxlayacağıq.')
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      message: ''
+    setIsSubmitting(true)
+    setSubmitStatus(null)
+
+    // Debug: Form verilerini logla
+    console.log('📝 Form göndərilir:', {
+      name: formData.name,
+      email: formData.email,
+      phone: formData.phone,
+      messageLength: formData.message.length,
+      timestamp: new Date().toISOString()
     })
+
+    try {
+      // EmailJS servis parametreleri
+      const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID
+      const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+
+      // Debug: Environment variables kontrolü
+      console.log('🔧 Environment Variables:', {
+        serviceID: serviceID ? `${serviceID.substring(0, 10)}...` : 'YOX',
+        templateID: templateID ? `${templateID.substring(0, 10)}...` : 'YOX',
+        publicKey: publicKey ? `${publicKey.substring(0, 10)}...` : 'YOX',
+        allPresent: !!(serviceID && templateID && publicKey)
+      })
+
+      // Environment variable kontrolü
+      if (!serviceID || !templateID || !publicKey) {
+        console.error('❌ EmailJS konfigurasiyası tapılmadı:', {
+          serviceID: !!serviceID,
+          templateID: !!templateID,
+          publicKey: !!publicKey,
+          envMode: import.meta.env.MODE,
+          envProd: import.meta.env.PROD
+        })
+        throw new Error('EmailJS konfigurasiyası tapılmadı. Zəhmət olmasa .env faylını yoxlayın.')
+      }
+
+      console.log('📧 EmailJS göndərilir...', {
+        serviceID,
+        templateID,
+        publicKey: publicKey.substring(0, 10) + '...',
+        templateParams: {
+          from_name: formData.name,
+          from_email: formData.email,
+          phone: formData.phone || 'Təyin edilməyib',
+          message: formData.message.substring(0, 50) + '...'
+        }
+      })
+
+      // EmailJS ile email gönder
+      // Not: Template'de kullanılan değişkenler: from_name, from_email, phone, message
+      const result = await emailjs.send(
+        serviceID,
+        templateID,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          phone: formData.phone || 'Təyin edilməyib',
+          message: formData.message,
+        },
+        publicKey
+      )
+
+      console.log('✅ Email uğurla göndərildi:', {
+        status: result.status,
+        text: result.text,
+        timestamp: new Date().toISOString()
+      })
+      
+      setSubmitStatus('success')
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        message: ''
+      })
+      
+      // Debug: Başarılı gönderim sonrası
+      console.log('🎉 Form sıfırlandı və status mesajı gösterildi')
+
+      // 5 saniye sonra status mesajını temizle
+      setTimeout(() => {
+        setSubmitStatus(null)
+      }, 5000)
+    } catch (error) {
+      // Debug: Detaylı hata loglama
+      console.error('❌ Email göndərmə xətası:', error)
+      console.error('🔍 Xəta detayları:', {
+        name: error.name,
+        message: error.text || error.message,
+        status: error.status,
+        statusText: error.statusText,
+        response: error.response,
+        stack: error.stack,
+        timestamp: new Date().toISOString()
+      })
+      
+      // Network hatası kontrolü
+      if (error.status === 0 || !navigator.onLine) {
+        console.error('🌐 Network xətası: İnternet bağlantısını yoxlayın')
+      }
+      
+      // EmailJS API hatası kontrolü
+      if (error.status >= 400 && error.status < 500) {
+        console.error('📧 EmailJS API xətası: Konfigurasiyanı yoxlayın')
+      }
+      
+      if (error.status >= 500) {
+        console.error('🔧 Server xətası: EmailJS servisi müvəqqəti olaraq əlçatan deyil')
+      }
+      
+      // Daha detaylı hata mesajı
+      let errorMessage = 'Mesaj göndərilərkən xəta baş verdi.'
+      if (error.text) {
+        errorMessage += ` Xəta: ${error.text}`
+      } else if (error.message) {
+        errorMessage += ` Xəta: ${error.message}`
+      }
+      
+      setSubmitStatus('error')
+      
+      // 5 saniye sonra status mesajını temizle
+      setTimeout(() => {
+        setSubmitStatus(null)
+      }, 5000)
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -149,9 +274,29 @@ const Contact = () => {
                 placeholder="Mesajınızı yazın..."
               ></textarea>
             </div>
-            <button type="submit" className="submit-btn">
-              Göndər
+            <button 
+              type="submit" 
+              className="submit-btn"
+              disabled={isSubmitting}
+            >
+              {isSubmitting ? 'Göndərilir...' : 'Göndər'}
             </button>
+            
+            {submitStatus === 'success' && (
+              <div className="form-status success">
+                ✓ Mesajınız uğurla göndərildi! Tezliklə sizinlə əlaqə saxlayacağıq.
+              </div>
+            )}
+            
+            {submitStatus === 'error' && (
+              <div className="form-status error">
+                ✗ Mesaj göndərilərkən xəta baş verdi. Zəhmət olmasa yenidən cəhd edin və ya birbaşa email göndərin.
+                <br />
+                <small style={{ fontSize: '0.85rem', marginTop: '0.5rem', display: 'block' }}>
+                  Browser console-da (F12) xəta detaylarını görə bilərsiniz.
+                </small>
+              </div>
+            )}
           </form>
         </div>
       </section>

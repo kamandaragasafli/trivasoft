@@ -10,14 +10,14 @@ const Header = () => {
   }
 
   return (
-    <header className="header">
+    <header className="header" role="banner">
       <div className="header-container">
-        <Link to="/" className="logo">
-          <img src={logoImage} alt="TrivaSoft Logo" className="logo-icon" />
+        <Link to="/" className="logo" aria-label="TrivaSoft Ana Səhifə">
+          <img src={logoImage} alt="TrivaSoft Logo - Rəqəmsal Həllər" className="logo-icon" width="40" height="40" />
           <span className="logo-text">trivasoft</span>
         </Link>
         
-        <nav className="nav">
+        <nav className="nav" role="navigation" aria-label="Əsas Navigasiya">
           <Link 
             to="/" 
             className={`nav-link ${isActive('/') ? 'active' : ''}`}

@@ -5,6 +5,10 @@ import Footer from './components/Footer'
 import Loading from './components/Loading'
 import Home from './pages/Home'
 import Services from './pages/Services'
+import ServiceAI from './pages/ServiceAI'
+import ServiceWeb from './pages/ServiceWeb'
+import ServiceERP from './pages/ServiceERP'
+import ServiceMarketing from './pages/ServiceMarketing'
 import About from './pages/About'
 import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
@@ -15,12 +19,16 @@ function App() {
   const [isHovering, setIsHovering] = useState(false)
 
   useEffect(() => {
+    // Loading bitene kadar cursor animasyonunu başlatma
+    if (isLoading) return
+
     let mouseX = 0
     let mouseY = 0
     let currentX = 0
     let currentY = 0
     let lastMoveTime = Date.now()
     let hoverTimeout = null
+    let animationFrameId = null
 
     const handleMouseMove = (e) => {
       mouseX = e.clientX
@@ -47,18 +55,22 @@ function App() {
       document.documentElement.style.setProperty('--mouse-x', `${currentX}px`)
       document.documentElement.style.setProperty('--mouse-y', `${currentY}px`)
 
-      requestAnimationFrame(animate)
+      animationFrameId = requestAnimationFrame(animate)
     }
 
     document.addEventListener('mousemove', handleMouseMove)
 
-    animate()
+    // Kısa bir gecikme ile animasyonu başlat (sayfa yüklenmesi için)
+    setTimeout(() => {
+      animate()
+    }, 100)
 
     return () => {
       document.removeEventListener('mousemove', handleMouseMove)
       if (hoverTimeout) clearTimeout(hoverTimeout)
+      if (animationFrameId) cancelAnimationFrame(animationFrameId)
     }
-  }, [])
+  }, [isLoading])
 
   if (isLoading) {
     return <Loading onComplete={() => setIsLoading(false)} />
@@ -73,6 +85,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/xidmetler" element={<Services />} />
+          <Route path="/xidmetler/ai" element={<ServiceAI />} />
+          <Route path="/xidmetler/web" element={<ServiceWeb />} />
+          <Route path="/xidmetler/erp" element={<ServiceERP />} />
+          <Route path="/xidmetler/marketinq" element={<ServiceMarketing />} />
           <Route path="/haqqimizda" element={<About />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/elaqe" element={<Contact />} />

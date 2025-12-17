@@ -7,6 +7,7 @@ const Loading = ({ onComplete }) => {
   const [lettersVisible, setLettersVisible] = useState([])
   const [logoVisible, setLogoVisible] = useState(false)
   const [zoomStarted, setZoomStarted] = useState(false)
+  const [fadeOut, setFadeOut] = useState(false)
 
   useEffect(() => {
     // Ses bağlamını başlat (tarayıcı kısıtlamaları için)
@@ -101,7 +102,7 @@ const Loading = ({ onComplete }) => {
     }, 300)
 
     // Harfleri sırayla göster (logo göründükten sonra)
-    const word = 'trivasoft'
+    const word = 'trıvasoft'
     const letterStartDelay = 800 // Logo göründükten sonra başla
     const letterInterval = 120 // Her harf arası 120ms
 
@@ -126,13 +127,18 @@ const Loading = ({ onComplete }) => {
       })
     }, interval)
 
-    // 5 saniye sonra zoom başlat
+    // 3 saniye sonra zoom başlat
     const zoomTimeout = setTimeout(() => {
       setZoomStarted(true)
-      // Zoom animasyonu bittikten sonra sayfayı aç (1.2 saniye sonra)
+      // Fade out başlat
       setTimeout(() => {
+        setFadeOut(true)
+      }, 400)
+      // Zoom animasyonu bittikten sonra sayfayı aç (0.6 saniye sonra)
+      setTimeout(() => {
+        // Sayfa geçişini daha akıcı hale getirmek için
         onComplete()
-      }, 1200)
+      }, 600)
     }, duration)
 
     return () => {
@@ -141,14 +147,20 @@ const Loading = ({ onComplete }) => {
     }
   }, [onComplete])
 
-  const word = 'trivasoft'
+  const word = 'trıvasoft'
 
   return (
-    <div className="loading-screen">
+    <div className={`loading-screen ${fadeOut ? 'fade-out' : ''}`}>
       <div className="loading-content">
         {/* Logo görseli */}
         <div className={`logo-symbol ${logoVisible ? 'visible' : ''} ${zoomStarted ? 'zoom-out' : ''}`}>
-          <img src={logoImage} alt="TrivaSoft Logo" className="logo-image" />
+          <img 
+            src={logoImage} 
+            alt="TrivaSoft Logo" 
+            className="logo-image"
+            loading="eager"
+            decoding="async"
+          />
         </div>
         
         {/* Logo yazısı */}
@@ -160,7 +172,7 @@ const Loading = ({ onComplete }) => {
                 className={`loading-letter ${lettersVisible.includes(index) ? 'visible' : ''}`}
                 style={{ '--delay': `${index * 0.1}s` }}
               >
-                {letter === 'i' ? (
+                {letter === 'ı' ? (
                   <>
                     <span className="i-dot"></span>
                     {letter}

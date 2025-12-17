@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import './Services.css'
 
 const Services = () => {
@@ -42,6 +43,7 @@ const Services = () => {
       title: 'AI Avtomatlaşdırma',
       description: 'Müasir süni intellekt texnologiyaları ilə biznes proseslərinizi tam avtomatlaşdırın. Chatbotlar, məlumat analizi, proqnozlaşdırma və daha çox.',
       icon: '🤖',
+      link: '/xidmetler/ai',
       features: [
         'Chatbot və virtual assistentlər',
         'Məlumat analizi və proqnozlaşdırma',
@@ -54,6 +56,7 @@ const Services = () => {
       title: 'ERP',
       description: 'Biznesinizi idarə etmək üçün güclü və effektiv ERP sistemləri. Maliyyə, inventar, insan resursları və daha çox modullar.',
       icon: '📊',
+      link: '/xidmetler/erp',
       features: [
         'Maliyyə idarəetməsi',
         'İnventar idarəetməsi',
@@ -66,11 +69,25 @@ const Services = () => {
       title: 'Marketinq',
       description: 'Rəqəmsal marketinq strategiyaları ilə müştərilərinizə çatın. SEO, sosial media, kontent marketinqi və daha çox.',
       icon: '📈',
+      link: '/xidmetler/marketinq',
       features: [
         'SEO optimallaşdırması',
         'Sosial media marketinqi',
         'Kontent marketinqi',
         'Reklam kampaniyaları'
+      ]
+    },
+    {
+      id: 4,
+      title: 'Web',
+      description: 'Müasir və performanslı veb saytlar, veb tətbiqlər və e-ticarət platformaları hazırlayırıq. Responsive dizayn və istifadəçi dostu interfeyslər.',
+      icon: '🌐',
+      link: '/xidmetler/web',
+      features: [
+        'Veb sayt dizaynı və inkişafı',
+        'Responsive və mobil uyğunluq',
+        'E-ticarət platformaları',
+        'Veb tətbiqlər (Web Apps)'
       ]
     }
   ]
@@ -90,26 +107,31 @@ const Services = () => {
       <section className="services-content">
         <div className="services-container">
           {services.map((service, index) => (
-            <div 
-              key={service.id} 
-              className="service-card"
-              ref={(el) => (serviceCardsRef.current[index] = el)}
+            <Link
+              key={service.id}
+              to={service.link}
+              className="service-card-link"
             >
-              <div className="service-icon-wrapper">
-                <div className="service-icon">{service.icon}</div>
+              <div 
+                className="service-card"
+                ref={(el) => (serviceCardsRef.current[index] = el)}
+              >
+                <div className="service-icon-wrapper">
+                  <div className="service-icon">{service.icon}</div>
+                </div>
+                <h2 className="service-title">{service.title}</h2>
+                <p className="service-description">{service.description}</p>
+                <ul className="service-features">
+                  {service.features.map((feature, idx) => (
+                    <li key={idx} className="service-feature">
+                      <span className="feature-check">✓</span>
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+                <div className="service-overlay"></div>
               </div>
-              <h2 className="service-title">{service.title}</h2>
-              <p className="service-description">{service.description}</p>
-              <ul className="service-features">
-                {service.features.map((feature, idx) => (
-                  <li key={idx} className="service-feature">
-                    <span className="feature-check">✓</span>
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="service-overlay"></div>
-            </div>
+            </Link>
           ))}
         </div>
       </section>

@@ -78,6 +78,12 @@
   gap: 3rem;
 }
 
+.service-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .service-card {
   background: linear-gradient(135deg, var(--color-dark-bg) 0%, var(--color-dark) 100%);
   color: var(--color-text-light);
@@ -89,6 +95,7 @@
   opacity: 0;
   transform: translateY(50px) scale(0.95);
   border: 1px solid rgba(0, 245, 160, 0.2);
+  cursor: pointer;
 }
 
 .service-card.animate-in {
@@ -106,6 +113,10 @@
 
 .service-card:nth-child(3).animate-in {
   transition-delay: 0.3s;
+}
+
+.service-card:nth-child(4).animate-in {
+  transition-delay: 0.4s;
 }
 
 .service-card::before {

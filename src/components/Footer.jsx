@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" role="contentinfo">
       <div className="footer-container">
         <div className="footer-section">
           <h3 className="footer-logo">TrivaSoft</h3>

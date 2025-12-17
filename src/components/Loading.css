@@ -10,6 +10,19 @@
   justify-content: center;
   z-index: 99999;
   overflow: hidden;
+  pointer-events: auto;
+}
+
+.loading-screen.fade-out {
+  animation: fadeOutScreen 0.5s ease forwards;
+  pointer-events: none;
+}
+
+@keyframes fadeOutScreen {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 .loading-screen::before {
@@ -62,21 +75,21 @@
 }
 
 .logo-symbol.zoom-out {
-  animation: logoZoomOut 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  animation: logoZoomOut 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
   z-index: 10000;
+  will-change: transform, opacity;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: center center;
 }
 
 @keyframes logoZoomOut {
   0% {
-    transform: scale(1) translateY(0);
+    transform: translateZ(0) scale(1);
     opacity: 1;
   }
-  50% {
-    transform: scale(15) translateY(0);
-    opacity: 0.8;
-  }
   100% {
-    transform: scale(25) translateY(0);
+    transform: translateZ(0) scale(15);
     opacity: 0;
   }
 }
@@ -87,6 +100,8 @@
   object-fit: contain;
   filter: drop-shadow(0 0 20px rgba(0, 245, 160, 0.3));
   transition: filter 0.3s ease;
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 .logo-symbol.zoom-out .logo-image {
@@ -94,16 +109,17 @@
 }
 
 .loading-text {
-  font-size: 2.5rem;
-  font-weight: 400;
-  font-family: 'Inter', sans-serif;
-  letter-spacing: 0.05em;
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.03em;
   display: flex;
   gap: 0.1rem;
   justify-content: center;
   align-items: baseline;
   color: white;
   transition: opacity 0.3s ease;
+  text-transform: lowercase;
 }
 
 .loading-letter {
@@ -122,11 +138,11 @@
 
 .loading-letter .i-dot {
   position: absolute;
-  top: -10px;
+  top: -4px;
   left: 50%;
   transform: translateX(-50%);
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background: var(--color-primary);
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 245, 160, 0.6);
@@ -203,7 +219,7 @@
   }
 
   .loading-text {
-    font-size: 2rem;
+    font-size: 2.5rem;
     gap: 0.1rem;
   }
   
@@ -218,7 +234,7 @@
   }
 
   .loading-text {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   
   .loading-bar-container {
