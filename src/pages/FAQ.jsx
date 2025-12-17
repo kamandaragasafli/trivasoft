@@ -3,39 +3,7 @@ import './FAQ.css'
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null)
-  const heroRef = useRef(null)
-  const faqItemsRef = useRef([])
-
-  useEffect(() => {
-    // Hero animasyonu
-    if (heroRef.current) {
-      heroRef.current.classList.add('animate-in')
-    }
-
-    // Scroll animasyonları
-    const observerOptions = {
-      threshold: 0.1,
-      rootMargin: '0px 0px -50px 0px'
-    }
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('animate-in')
-        }
-      })
-    }, observerOptions)
-
-    faqItemsRef.current.forEach((item) => {
-      if (item) observer.observe(item)
-    })
-
-    return () => {
-      faqItemsRef.current.forEach((item) => {
-        if (item) observer.unobserve(item)
-      })
-    }
-  }, [])
+  const answerRefs = useRef([])
 
   const faqs = [
     {
@@ -65,48 +33,49 @@ const FAQ = () => {
   ]
 
   const toggleFAQ = (index) => {
-    setOpenIndex(openIndex === index ? null : index)
+    setOpenIndex(prev => prev === index ? null : index)
   }
 
-  return (
-    <div className="faq">
-      <section className="faq-hero">
-        <div className="faq-hero-background"></div>
-        <div className="faq-hero-container" ref={heroRef}>
-          <h1 className="faq-title">Tez-tez Verilən Suallar</h1>
-          <p className="faq-subtitle">
-            Suallarınızın cavablarını burada tapa bilərsiniz
-          </p>
-        </div>
-      </section>
+  useEffect(() => {
+    answerRefs.current.forEach((ref, index) => {
+      if (ref) {
+        if (openIndex === index) {
+          ref.style.height = `${ref.scrollHeight}px`
+        } else {
+          ref.style.height = '0px'
+        }
+      }
+    })
+  }, [openIndex])
 
-      <section className="faq-content">
-        <div className="faq-container">
-          {faqs.map((faq, index) => (
+  return (
+    <div className="faq-page">
+      <div className="faq-hero">
+        <h1>Tez-tez Verilən Suallar</h1>
+        <p>Suallarınızın cavablarını burada tapa bilərsiniz</p>
+      </div>
+
+      <div className="faq-list">
+        {faqs.map((faq, index) => (
+          <div key={index} className={`faq-card ${openIndex === index ? 'active' : ''}`}>
             <div 
-              key={index} 
-              className={`faq-item ${openIndex === index ? 'open' : ''}`}
-              ref={(el) => (faqItemsRef.current[index] = el)}
+              className="faq-header"
+              onClick={() => toggleFAQ(index)}
             >
-              <div 
-                className="faq-question"
-                onClick={() => toggleFAQ(index)}
-              >
-                <span>{faq.question}</span>
-                <span className="faq-icon">{openIndex === index ? '−' : '+'}</span>
-              </div>
-              {openIndex === index && (
-                <div className="faq-answer">
-                  <p>{faq.answer}</p>
-                </div>
-              )}
+              <h3>{faq.question}</h3>
+              <span className="faq-toggle">{openIndex === index ? '−' : '+'}</span>
             </div>
-          ))}
-        </div>
-      </section>
+            <div 
+              ref={el => answerRefs.current[index] = el}
+              className="faq-body"
+            >
+              <p>{faq.answer}</p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
 
 export default FAQ
-
