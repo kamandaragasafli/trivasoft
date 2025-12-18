@@ -108,11 +108,11 @@ const Contact = () => {
         serviceID,
         templateID,
         {
-          name: formData.name, // From Name için
-          email: formData.email, // Reply To için
-          from_email: formData.email, // Subject için
-          from_name: formData.name, // Template içeriği için
+          from_name: formData.name,
+          from_email: formData.email,
+          reply_to: formData.email,
           message: formData.message,
+          to_name: formData.name,
         },
         publicKey
       )

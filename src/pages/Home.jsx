@@ -62,7 +62,7 @@ const Home = () => {
           </h1>
           <p className="hero-description">
             TrivaSoft ilə biznesinizi növbəti səviyyəyə qaldırın. AI avtomatlaşdırma, 
-            ERP həlləri və marketinq strategiyaları ilə uğura çatın.
+            ERP həlləri, Web həlləri və marketinq strategiyaları ilə uğura çatın.
           </p>
           <div className="hero-buttons">
             <Link to="/xidmetler" className="btn btn-primary">

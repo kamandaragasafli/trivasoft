@@ -155,11 +155,11 @@ Tarix: ${new Date().toLocaleString('az-AZ')}
               serviceID,
               templateID,
               {
-                name: siparisData.isim || 'Chatbot İstifadəçisi', // From Name için
-                email: siparisData.email || 'chatbot@trivasoft.az', // Reply To için
-                from_email: siparisData.email || 'chatbot@trivasoft.az', // Subject için
-                from_name: siparisData.isim || 'Chatbot İstifadəçisi', // Template içeriği için
+                from_name: siparisData.isim || 'Chatbot İstifadəçisi',
+                from_email: siparisData.email || 'chatbot@trivasoft.az',
+                reply_to: siparisData.email || 'chatbot@trivasoft.az',
                 message: siparisMesaji,
+                to_name: siparisData.isim || 'Müştəri',
               },
               publicKey
             )
