@@ -27,11 +27,18 @@ const Footer = () => {
         <div className="footer-section">
           <h4 className="footer-title">Xidmətlər</h4>
           <ul className="footer-links">
-            <li>AI Avtomatlaşdırma</li>
-            <li>ERP Həlləri</li>
-            <li>Marketinq</li>
-            <li>Konsaltinq</li>
-            <li>Vebsayt Dizayn</li>
+            <li>
+              <Link to="/xidmetler/ai">AI Avtomatlaşdırma</Link>
+            </li>
+            <li>
+              <Link to="/xidmetler/web">Web Həllər</Link>
+            </li>
+            <li>
+              <Link to="/xidmetler/erp">ERP Həlləri</Link>
+            </li>
+            <li>
+              <Link to="/xidmetler/marketinq">Marketinq</Link>
+            </li>
           </ul>
         </div>
 
@@ -44,11 +51,11 @@ const Footer = () => {
             </li>
             <li>
               <span className="contact-icon">📱</span>
-              <span>+994 50 476 88 43</span>
+              <span>+994 55 386 12 11</span>
             </li>
             <li>
               <span className="contact-icon">📍</span>
-              <span>Bakı, Azərbaycan</span>
+              <span>Nizami street AFF Business House</span>
             </li>
           </ul>
         </div>

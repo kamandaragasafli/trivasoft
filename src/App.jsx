@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Loading from './components/Loading'
+import Chatbot from './components/Chatbot'
 import Home from './pages/Home'
 import Services from './pages/Services'
 import ServiceAI from './pages/ServiceAI'
@@ -94,6 +95,7 @@ function App() {
           <Route path="/elaqe" element={<Contact />} />
         </Routes>
         <Footer />
+        <Chatbot />
       </div>
     </Router>
   )

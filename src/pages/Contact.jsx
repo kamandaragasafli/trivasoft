@@ -6,7 +6,6 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    phone: '',
     message: ''
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -62,7 +61,6 @@ const Contact = () => {
     console.log('📝 Form göndərilir:', {
       name: formData.name,
       email: formData.email,
-      phone: formData.phone,
       messageLength: formData.message.length,
       timestamp: new Date().toISOString()
     })
@@ -100,7 +98,6 @@ const Contact = () => {
         templateParams: {
           from_name: formData.name,
           from_email: formData.email,
-          phone: formData.phone || 'Təyin edilməyib',
           message: formData.message.substring(0, 50) + '...'
         }
       })
@@ -111,9 +108,10 @@ const Contact = () => {
         serviceID,
         templateID,
         {
-          from_name: formData.name,
-          from_email: formData.email,
-          phone: formData.phone || 'Təyin edilməyib',
+          name: formData.name, // From Name için
+          email: formData.email, // Reply To için
+          from_email: formData.email, // Subject için
+          from_name: formData.name, // Template içeriği için
           message: formData.message,
         },
         publicKey
@@ -129,7 +127,6 @@ const Contact = () => {
       setFormData({
         name: '',
         email: '',
-        phone: '',
         message: ''
       })
       
@@ -213,14 +210,14 @@ const Contact = () => {
               <div className="info-icon">📱</div>
               <div>
                 <h3>Telefon</h3>
-                <p>+994 50 476 88 43</p>
+                <p>+994 55 386 12 11</p>
               </div>
             </div>
             <div className="info-item">
               <div className="info-icon">📍</div>
               <div>
                 <h3>Ünvan</h3>
-                <p>Bakı, Azərbaycan</p>
+                <p>Nizami street AFF Business House</p>
               </div>
             </div>
           </div>
@@ -249,17 +246,6 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 placeholder="email@example.com"
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="phone">Telefon</label>
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                value={formData.phone}
-                onChange={handleChange}
-                placeholder="+994 50 476 88 43"
               />
             </div>
             <div className="form-group">
