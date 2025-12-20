@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { Helmet } from 'react-helmet-async'
 import './Contact.css'
 
 const Contact = () => {
@@ -184,8 +185,24 @@ const Contact = () => {
   }
 
   return (
-    <div className="contact">
-      <section className="contact-hero">
+    <>
+      <Helmet>
+        <title>Əlaqə - TrivaSoft ilə Əlaqə Saxlayın | Bakı</title>
+        <meta 
+          name="description" 
+          content="TrivaSoft ilə əlaqə saxlayın. Email: info@trivasoft.az, Telefon: +994 55 386 12 11. Bakı, Azərbaycan. Layihə təklifiniz üçün bizə yazın." 
+        />
+        <meta 
+          name="keywords" 
+          content="TrivaSoft əlaqə, Bakı IT şirkəti, rəqəmsal həllər konsaltinqi, layihə təklifi" 
+        />
+        <link rel="canonical" href="https://trivasoft.az/elaqe" />
+        <meta property="og:title" content="Əlaqə - TrivaSoft ilə Əlaqə Saxlayın | Bakı" />
+        <meta property="og:description" content="TrivaSoft ilə əlaqə saxlayın. Email, telefon və WhatsApp. Layihə təklifiniz üçün bizə yazın." />
+        <meta property="og:url" content="https://trivasoft.az/elaqe" />
+      </Helmet>
+      <div className="contact">
+        <section className="contact-hero">
         <div className="contact-hero-background"></div>
         <div className="contact-hero-container" ref={heroRef}>
           <h1 className="contact-title">Əlaqə</h1>
@@ -286,7 +303,8 @@ const Contact = () => {
           </form>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   )
 }
 

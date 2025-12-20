@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
 import './Header.css'
-import logoImage from '../logo/ChatGPT Image Dec 13, 2025, 09_47_31 AM.png'
+import logoImage from '../source/icon.png'
 
 const Header = () => {
   const location = useLocation()
@@ -35,6 +35,12 @@ const Header = () => {
             className={`nav-link ${isActive('/haqqimizda') ? 'active' : ''}`}
           >
             Haqqımızda
+          </Link>
+          <Link 
+            to="/blog" 
+            className={`nav-link ${isActive('/blog') ? 'active' : ''}`}
+          >
+            Blog
           </Link>
           <Link 
             to="/faq" 

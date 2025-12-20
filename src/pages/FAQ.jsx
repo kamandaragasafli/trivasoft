@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { Helmet } from 'react-helmet-async'
 import './FAQ.css'
 
 const FAQ = () => {
@@ -49,8 +50,24 @@ const FAQ = () => {
   }, [openIndex])
 
   return (
-    <div className="faq-page">
-      <div className="faq-hero">
+    <>
+      <Helmet>
+        <title>FAQ - Tez-tez Verilən Suallar | TrivaSoft</title>
+        <meta 
+          name="description" 
+          content="TrivaSoft xidmətləri haqqında tez-tez verilən suallar və cavablar. AI, ERP, marketinq və veb xidmətləri haqqında məlumat." 
+        />
+        <meta 
+          name="keywords" 
+          content="TrivaSoft FAQ, tez-tez verilən suallar, AI xidmətləri sualları, ERP sualları" 
+        />
+        <link rel="canonical" href="https://trivasoft.az/faq" />
+        <meta property="og:title" content="FAQ - Tez-tez Verilən Suallar | TrivaSoft" />
+        <meta property="og:description" content="TrivaSoft xidmətləri haqqında tez-tez verilən suallar və cavablar." />
+        <meta property="og:url" content="https://trivasoft.az/faq" />
+      </Helmet>
+      <div className="faq-page">
+        <div className="faq-hero">
         <h1>Tez-tez Verilən Suallar</h1>
         <p>Suallarınızın cavablarını burada tapa bilərsiniz</p>
       </div>
@@ -74,7 +91,8 @@ const FAQ = () => {
           </div>
         ))}
       </div>
-    </div>
+      </div>
+    </>
   )
 }
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './Loading.css'
-import logoImage from '../logo/ChatGPT Image Dec 13, 2025, 09_47_31 AM.png'
+import logoImage from '../source/icon.png'
 
 const Loading = ({ onComplete }) => {
   const [progress, setProgress] = useState(0)

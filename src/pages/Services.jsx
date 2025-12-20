@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import './Services.css'
 
 const Services = () => {
@@ -93,8 +94,24 @@ const Services = () => {
   ]
 
   return (
-    <div className="services">
-      <section className="services-hero">
+    <>
+      <Helmet>
+        <title>Xidmətlərimiz - AI, ERP, Marketinq, Web | TrivaSoft</title>
+        <meta 
+          name="description" 
+          content="TrivaSoft geniş xidmət spektri: AI avtomatlaşdırma, ERP sistemləri, rəqəmsal marketinq və veb dizayn. Biznesiniz üçün kompleks həllər." 
+        />
+        <meta 
+          name="keywords" 
+          content="AI avtomatlaşdırma xidmətləri, ERP sistemləri Azərbaycan, rəqəmsal marketinq xidmətləri, veb sayt dizaynı Bakı, chatbot xidmətləri" 
+        />
+        <link rel="canonical" href="https://trivasoft.az/xidmetler" />
+        <meta property="og:title" content="Xidmətlərimiz - AI, ERP, Marketinq, Web | TrivaSoft" />
+        <meta property="og:description" content="TrivaSoft geniş xidmət spektri: AI avtomatlaşdırma, ERP sistemləri, rəqəmsal marketinq və veb dizayn. Biznesiniz üçün kompleks həllər." />
+        <meta property="og:url" content="https://trivasoft.az/xidmetler" />
+      </Helmet>
+      <div className="services">
+        <section className="services-hero">
         <div className="services-hero-background"></div>
         <div className="services-hero-container" ref={heroRef}>
           <h1 className="services-title">Xidmətlərimiz</h1>
@@ -135,7 +152,8 @@ const Services = () => {
           ))}
         </div>
       </section>
-    </div>
+      </div>
+    </>
   )
 }
 

@@ -153,6 +153,68 @@
   z-index: 1;
 }
 
+/* Expanded Content Styles */
+.service-detail-expanded {
+  margin: 2.5rem 0;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(0, 245, 160, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.service-detail-section {
+  margin-bottom: 2.5rem;
+}
+
+.service-detail-section:last-child {
+  margin-bottom: 0;
+}
+
+.service-detail-section-title {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.service-detail-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 1rem;
+}
+
+.service-how-item {
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  border-left: 3px solid rgba(0, 245, 160, 0.3);
+  transition: border-color 0.3s ease;
+}
+
+.service-detail-card:hover .service-how-item {
+  border-left-color: var(--color-primary);
+}
+
+.service-how-title {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.service-how-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
 .service-detail-benefits {
   position: relative;
   z-index: 1;
@@ -294,6 +356,20 @@
 
   .service-detail-card-title {
     font-size: 1.5rem;
+  }
+
+  .service-detail-section-title {
+    font-size: 1.25rem;
+  }
+
+  .service-how-title {
+    font-size: 1.1rem;
+  }
+
+  .service-detail-text,
+  .service-how-description {
+    font-size: 1rem;
+    line-height: 1.8;
   }
 
   .benefits-title {

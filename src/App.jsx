@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { useEffect, useState } from 'react'
+import { HelmetProvider } from 'react-helmet-async'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Loading from './components/Loading'
@@ -13,6 +14,11 @@ import ServiceMarketing from './pages/ServiceMarketing'
 import About from './pages/About'
 import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
+import BlogList from './pages/BlogList'
+import Blog from './pages/Blog'
+import BlogERP from './pages/BlogERP'
+import BlogWeb from './pages/BlogWeb'
+import BlogMarketing from './pages/BlogMarketing'
 import './App.css'
 
 function App() {
@@ -78,26 +84,33 @@ function App() {
   }
 
   return (
-    <Router>
-      <div className="App">
-        <div className="cursor-dot"></div>
-        <div className={`cursor-light ${isHovering ? 'active' : ''}`}></div>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/xidmetler" element={<Services />} />
-          <Route path="/xidmetler/ai" element={<ServiceAI />} />
-          <Route path="/xidmetler/web" element={<ServiceWeb />} />
-          <Route path="/xidmetler/erp" element={<ServiceERP />} />
-          <Route path="/xidmetler/marketinq" element={<ServiceMarketing />} />
-          <Route path="/haqqimizda" element={<About />} />
-          <Route path="/faq" element={<FAQ />} />
-          <Route path="/elaqe" element={<Contact />} />
-        </Routes>
-        <Footer />
-        <Chatbot />
-      </div>
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <div className="App">
+          <div className="cursor-dot"></div>
+          <div className={`cursor-light ${isHovering ? 'active' : ''}`}></div>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/xidmetler" element={<Services />} />
+            <Route path="/xidmetler/ai" element={<ServiceAI />} />
+            <Route path="/xidmetler/web" element={<ServiceWeb />} />
+            <Route path="/xidmetler/erp" element={<ServiceERP />} />
+            <Route path="/xidmetler/marketinq" element={<ServiceMarketing />} />
+            <Route path="/haqqimizda" element={<About />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/blog" element={<BlogList />} />
+            <Route path="/blog/ai-avtomatlasdırma" element={<Blog />} />
+            <Route path="/blog/erp-sistemi" element={<BlogERP />} />
+            <Route path="/blog/veb-sayt-satis-aleti" element={<BlogWeb />} />
+            <Route path="/blog/marketinq-strategiyasi" element={<BlogMarketing />} />
+            <Route path="/elaqe" element={<Contact />} />
+          </Routes>
+          <Footer />
+          <Chatbot />
+        </div>
+      </Router>
+    </HelmetProvider>
   )
 }
 
