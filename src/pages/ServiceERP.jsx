@@ -335,6 +335,7 @@ const ServiceERP = () => {
         <meta property="og:title" content="ERP Həllər - Biznes İdarəetmə Sistemi | TrivaSoft" />
         <meta property="og:description" content="ERP sistemləri: maliyyə, inventar, satış, HR modulları. Biznesinizi vahid sistemdə idarə edin." />
         <meta property="og:url" content="https://trivasoft.az/services/erp" />
+        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
       </Helmet>
       <div className="service-detail">
         <section className="service-detail-hero">

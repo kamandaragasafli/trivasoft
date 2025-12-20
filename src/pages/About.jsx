@@ -59,6 +59,7 @@ const About = () => {
         <meta property="og:title" content="Haqqımızda - TrivaSoft Rəqəmsal Həllər | Bakı" />
         <meta property="og:description" content="TrivaSoft - Bakıda rəqəmsal transformasiya üzrə lider şirkət. 5+ il təcrübə, 100+ layihə, 50+ müştəri." />
         <meta property="og:url" content="https://trivasoft.az/about" />
+        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
       </Helmet>
       <div className="about">
         <section className="about-hero">

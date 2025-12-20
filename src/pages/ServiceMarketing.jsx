@@ -335,6 +335,7 @@ const ServiceMarketing = () => {
         <meta property="og:title" content="Marketinq - Rəqəmsal Marketinq, SMM, SEO | TrivaSoft" />
         <meta property="og:description" content="Rəqəmsal marketinq, SMM, SEO, brend strategiyası və kontent marketinqi xidmətləri." />
         <meta property="og:url" content="https://trivasoft.az/services/marketing" />
+        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
       </Helmet>
       <div className="service-detail">
         <section className="service-detail-hero">

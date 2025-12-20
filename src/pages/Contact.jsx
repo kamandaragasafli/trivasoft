@@ -200,6 +200,7 @@ const Contact = () => {
         <meta property="og:title" content="Əlaqə - TrivaSoft ilə Əlaqə Saxlayın | Bakı" />
         <meta property="og:description" content="TrivaSoft ilə əlaqə saxlayın. Email, telefon və WhatsApp. Layihə təklifiniz üçün bizə yazın." />
         <meta property="og:url" content="https://trivasoft.az/contact" />
+        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
       </Helmet>
       <div className="contact">
         <section className="contact-hero">

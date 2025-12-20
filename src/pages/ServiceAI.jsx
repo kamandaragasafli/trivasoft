@@ -205,6 +205,7 @@ const ServiceAI = () => {
         <meta property="og:title" content="AI Avtomatlaşdırma - Chatbot, Satış Botu | TrivaSoft" />
         <meta property="og:description" content="AI avtomatlaşdırma həlləri: chatbot, satış botları, hotel rezervasiya sistemləri. Bakıda AI xidmətləri." />
         <meta property="og:url" content="https://trivasoft.az/services/ai" />
+        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
       </Helmet>
       <div className="service-detail">
         <section className="service-detail-hero">

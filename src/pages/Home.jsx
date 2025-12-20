@@ -55,6 +55,7 @@ const Home = () => {
         <meta property="og:title" content="TrivaSoft - AI Avtomatlaşdırma, ERP, Rəqəmsal Marketinq | Bakı" />
         <meta property="og:description" content="TrivaSoft - Bakıda AI avtomatlaşdırma, ERP həlləri, rəqəmsal marketinq və veb dizayn xidmətləri. Biznesinizi rəqəmsal dünyada uğura çatdırın." />
         <meta property="og:url" content="https://trivasoft.az/" />
+        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
       </Helmet>
       <div className="home">
         <section className="hero">

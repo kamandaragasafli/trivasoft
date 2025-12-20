@@ -65,6 +65,7 @@ const FAQ = () => {
         <meta property="og:title" content="FAQ - Tez-tez Verilən Suallar | TrivaSoft" />
         <meta property="og:description" content="TrivaSoft xidmətləri haqqında tez-tez verilən suallar və cavablar." />
         <meta property="og:url" content="https://trivasoft.az/faq" />
+        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
       </Helmet>
       <div className="faq-page">
         <div className="faq-hero">

@@ -219,6 +219,7 @@ const ServiceWeb = () => {
         <meta property="og:title" content="Web Həllər - Vebsayt, E-ticarət, SEO | TrivaSoft" />
         <meta property="og:description" content="Vebsayt dizaynı, e-ticarət platformaları, mobil tətbiqlər və SEO xidmətləri. Bakıda peşəkar veb həlləri." />
         <meta property="og:url" content="https://trivasoft.az/services/web" />
+        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
       </Helmet>
       <div className="service-detail">
         <section className="service-detail-hero">

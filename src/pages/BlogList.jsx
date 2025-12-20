@@ -88,6 +88,7 @@ const BlogList = () => {
         <meta property="og:description" content="AI, ERP, marketinq və veb texnologiyaları haqqında məqalələr. TrivaSoft blog." />
         <meta property="og:url" content="https://trivasoft.az/blog" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
       </Helmet>
       <div className="blog-page">
         <section className="blog-hero">
