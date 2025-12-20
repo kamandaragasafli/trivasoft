@@ -124,6 +124,83 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Features / Services Section */}
+      <section className="features">
+        <div className="features-container">
+          <div className="features-intro">
+            <h2>Xidmətlərimiz</h2>
+            <p className="features-description">
+              Biznesinizin uğuru üçün geniş rəqəmsal həllər təqdim edirik. 
+              Hər bir xidmətimiz sizin biznesinizin ehtiyaclarına uyğun olaraq hazırlanır.
+            </p>
+          </div>
+          <div className="features-grid">
+            <Link
+              to="/services/ai"
+              className="feature-card"
+              ref={(el) => (featureCardsRef.current[0] = el)}
+            >
+              <div className="feature-overlay"></div>
+              <div className="feature-icon-wrapper">
+                <span className="feature-icon">🤖</span>
+              </div>
+              <h3>AI Avtomatlaşdırma</h3>
+              <p>
+                Müasir süni intellekt texnologiyaları ilə biznes proseslərinizi tam avtomatlaşdırın. 
+                Chatbotlar, məlumat analizi, proqnozlaşdırma və daha çox.
+              </p>
+            </Link>
+
+            <Link
+              to="/services/erp"
+              className="feature-card"
+              ref={(el) => (featureCardsRef.current[1] = el)}
+            >
+              <div className="feature-overlay"></div>
+              <div className="feature-icon-wrapper">
+                <span className="feature-icon">📊</span>
+              </div>
+              <h3>ERP</h3>
+              <p>
+                Biznesinizi idarə etmək üçün güclü və effektiv ERP sistemləri. 
+                Maliyyə, inventar, insan resursları və daha çox modullar.
+              </p>
+            </Link>
+
+            <Link
+              to="/services/marketing"
+              className="feature-card"
+              ref={(el) => (featureCardsRef.current[2] = el)}
+            >
+              <div className="feature-overlay"></div>
+              <div className="feature-icon-wrapper">
+                <span className="feature-icon">📈</span>
+              </div>
+              <h3>Marketinq</h3>
+              <p>
+                Rəqəmsal marketinq strategiyaları ilə müştərilərinizə çatın. 
+                SEO, sosial media, kontent marketinqi və daha çox.
+              </p>
+            </Link>
+
+            <Link
+              to="/services/web"
+              className="feature-card"
+              ref={(el) => (featureCardsRef.current[3] = el)}
+            >
+              <div className="feature-overlay"></div>
+              <div className="feature-icon-wrapper">
+                <span className="feature-icon">🌐</span>
+              </div>
+              <h3>Web</h3>
+              <p>
+                Müasir və performanslı veb saytlar, veb tətbiqlər və e-ticarət platformaları hazırlayırıq. 
+                Responsive dizayn və istifadəçi dostu interfeyslər.
+              </p>
+            </Link>
+          </div>
+        </div>
+      </section>
 
       </div>
     </>
