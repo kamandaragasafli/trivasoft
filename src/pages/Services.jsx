@@ -44,7 +44,7 @@ const Services = () => {
       title: 'AI Avtomatlaşdırma',
       description: 'Müasir süni intellekt texnologiyaları ilə biznes proseslərinizi tam avtomatlaşdırın. Chatbotlar, məlumat analizi, proqnozlaşdırma və daha çox.',
       icon: '🤖',
-      link: '/xidmetler/ai',
+      link: '/services/ai',
       features: [
         'Chatbot və virtual assistentlər',
         'Məlumat analizi və proqnozlaşdırma',
@@ -57,7 +57,7 @@ const Services = () => {
       title: 'ERP',
       description: 'Biznesinizi idarə etmək üçün güclü və effektiv ERP sistemləri. Maliyyə, inventar, insan resursları və daha çox modullar.',
       icon: '📊',
-      link: '/xidmetler/erp',
+      link: '/services/erp',
       features: [
         'Maliyyə idarəetməsi',
         'İnventar idarəetməsi',
@@ -70,7 +70,7 @@ const Services = () => {
       title: 'Marketinq',
       description: 'Rəqəmsal marketinq strategiyaları ilə müştərilərinizə çatın. SEO, sosial media, kontent marketinqi və daha çox.',
       icon: '📈',
-      link: '/xidmetler/marketinq',
+      link: '/services/marketing',
       features: [
         'SEO optimallaşdırması',
         'Sosial media marketinqi',
@@ -83,7 +83,7 @@ const Services = () => {
       title: 'Web',
       description: 'Müasir və performanslı veb saytlar, veb tətbiqlər və e-ticarət platformaları hazırlayırıq. Responsive dizayn və istifadəçi dostu interfeyslər.',
       icon: '🌐',
-      link: '/xidmetler/web',
+      link: '/services/web',
       features: [
         'Veb sayt dizaynı və inkişafı',
         'Responsive və mobil uyğunluq',
@@ -96,7 +96,7 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Xidmətlərimiz - AI, ERP, Marketinq, Web | TrivaSoft</title>
+        <title>TrivaSoft - Xidmətlərimiz | AI, ERP, Marketinq, Web</title>
         <meta 
           name="description" 
           content="TrivaSoft geniş xidmət spektri: AI avtomatlaşdırma, ERP sistemləri, rəqəmsal marketinq və veb dizayn. Biznesiniz üçün kompleks həllər." 
@@ -105,10 +105,13 @@ const Services = () => {
           name="keywords" 
           content="AI avtomatlaşdırma xidmətləri, ERP sistemləri Azərbaycan, rəqəmsal marketinq xidmətləri, veb sayt dizaynı Bakı, chatbot xidmətləri" 
         />
-        <link rel="canonical" href="https://trivasoft.az/xidmetler" />
-        <meta property="og:title" content="Xidmətlərimiz - AI, ERP, Marketinq, Web | TrivaSoft" />
+        <link rel="canonical" href="https://trivasoft.az/services" />
+        <meta property="og:title" content="TrivaSoft - Xidmətlərimiz | AI, ERP, Marketinq, Web" />
         <meta property="og:description" content="TrivaSoft geniş xidmət spektri: AI avtomatlaşdırma, ERP sistemləri, rəqəmsal marketinq və veb dizayn. Biznesiniz üçün kompleks həllər." />
-        <meta property="og:url" content="https://trivasoft.az/xidmetler" />
+        <meta property="og:url" content="https://trivasoft.az/services" />
+        <meta property="og:image" content="https://trivasoft.az/icon.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
       </Helmet>
       <div className="services">
         <section className="services-hero">

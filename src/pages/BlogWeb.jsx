@@ -50,13 +50,13 @@ const BlogWeb = () => {
           name="keywords" 
           content="veb-sayt satış aləti, online satış, satış artırılması, veb dizayn, marketinq strategiyası, veb-sayt biznes üçün" 
         />
-        <link rel="canonical" href="https://trivasoft.az/blog/veb-sayt-satis-aleti" />
+        <link rel="canonical" href="https://trivasoft.az/blog/website-sales-tool" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Veb-sayt biznes üçün niyə satış alətidir? | TrivaSoft Blog" />
         <meta property="og:description" content="Veb-sayt satış aləti, online satış və satış artırılması haqqında məqalə. TrivaSoft Web həlləri." />
-        <meta property="og:url" content="https://trivasoft.az/blog/veb-sayt-satis-aleti" />
+        <meta property="og:url" content="https://trivasoft.az/blog/website-sales-tool" />
         <meta property="og:image" content="https://trivasoft.az/source/web-4.png" />
         <meta property="article:published_time" content="2025-01-25T00:00:00+04:00" />
         <meta property="article:author" content="TrivaSoft" />
@@ -96,7 +96,7 @@ const BlogWeb = () => {
             "dateModified": "2025-01-25T00:00:00+04:00",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://trivasoft.az/blog/veb-sayt-satis-aleti"
+              "@id": "https://trivasoft.az/blog/website-sales-tool"
             },
             "articleSection": "Web & Satış",
             "keywords": "veb-sayt satış aləti, online satış, satış artırılması, veb dizayn"
@@ -356,10 +356,10 @@ const BlogWeb = () => {
               <h3>TrivaSoft Web Həlləri</h3>
               <p>Satış üçün qurulan saytlar. Ölçülə bilən nəticələr.</p>
               <div className="blog-cta-buttons">
-                <Link to="/xidmetler/web" className="btn btn-primary">
+                <Link to="/services/web" className="btn btn-primary">
                   Web Xidmətlərimiz
                 </Link>
-                <Link to="/elaqe" className="btn btn-secondary">
+                <Link to="/contact" className="btn btn-secondary">
                   Əlaqə Saxlayın
                 </Link>
               </div>
@@ -368,17 +368,17 @@ const BlogWeb = () => {
             <div className="blog-other-posts">
               <h3>Digər Məqalələr</h3>
               <div className="blog-other-posts-grid">
-                <Link to="/blog" className="blog-other-post-card">
+                <Link to="/blog/ai-automation" className="blog-other-post-card">
                   <h4>AI Avtomatlaşdırma nədir və bizneslər üçün nəyi dəyişir?</h4>
                   <p>ChatBot-ların rolu, işçi xərclərinin azalması və zamana qənaət...</p>
                   <span className="blog-post-link">Oxu →</span>
                 </Link>
-                <Link to="/blog/erp-sistemi" className="blog-other-post-card">
+                <Link to="/blog/erp-system" className="blog-other-post-card">
                   <h4>ERP sistemi nədir və nə zaman lazımdır?</h4>
                   <p>Biznes idarəetməsi, Excel riskləri və böyük bizneslər üçün ERP...</p>
                   <span className="blog-post-link">Oxu →</span>
                 </Link>
-                <Link to="/blog/marketinq-strategiyasi" className="blog-other-post-card">
+                <Link to="/blog/marketing-strategy" className="blog-other-post-card">
                   <h4>Marketinq strategiyası olmayan biznes niyə böyümür?</h4>
                   <p>Rəqəmsal marketinq, SMM, kontent marketinqi və satış qıfı haqqında...</p>
                   <span className="blog-post-link">Oxu →</span>

@@ -50,13 +50,13 @@ const BlogMarketing = () => {
           name="keywords" 
           content="marketinq strategiyası, rəqəmsal marketinq, SMM, kontent marketinqi, satış qıfı, marketinq planı, brend strategiyası" 
         />
-        <link rel="canonical" href="https://trivasoft.az/blog/marketinq-strategiyasi" />
+        <link rel="canonical" href="https://trivasoft.az/blog/marketing-strategy" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Marketinq strategiyası olmayan biznes niyə böyümür? | TrivaSoft Blog" />
         <meta property="og:description" content="Marketinq strategiyası, rəqəmsal marketinq və SMM haqqında məqalə. TrivaSoft Marketinq xidmətləri." />
-        <meta property="og:url" content="https://trivasoft.az/blog/marketinq-strategiyasi" />
+        <meta property="og:url" content="https://trivasoft.az/blog/marketing-strategy" />
         <meta property="og:image" content="https://trivasoft.az/source/marketing-1.jpg" />
         <meta property="article:published_time" content="2025-01-30T00:00:00+04:00" />
         <meta property="article:author" content="TrivaSoft" />
@@ -96,7 +96,7 @@ const BlogMarketing = () => {
             "dateModified": "2025-01-30T00:00:00+04:00",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://trivasoft.az/blog/marketinq-strategiyasi"
+              "@id": "https://trivasoft.az/blog/marketing-strategy"
             },
             "articleSection": "Marketinq & Strategiya",
             "keywords": "marketinq strategiyası, rəqəmsal marketinq, SMM, kontent marketinqi"
@@ -404,10 +404,10 @@ const BlogMarketing = () => {
               <h3>TrivaSoft Marketinq Xidmətləri</h3>
               <p>Strategiya. Sistem. Ölçülə bilən böyümə.</p>
               <div className="blog-cta-buttons">
-                <Link to="/xidmetler/marketinq" className="btn btn-primary">
+                <Link to="/services/marketing" className="btn btn-primary">
                   Marketinq Xidmətlərimiz
                 </Link>
-                <Link to="/elaqe" className="btn btn-secondary">
+                <Link to="/contact" className="btn btn-secondary">
                   Əlaqə Saxlayın
                 </Link>
               </div>
@@ -416,17 +416,17 @@ const BlogMarketing = () => {
             <div className="blog-other-posts">
               <h3>Digər Məqalələr</h3>
               <div className="blog-other-posts-grid">
-                <Link to="/blog" className="blog-other-post-card">
+                <Link to="/blog/ai-automation" className="blog-other-post-card">
                   <h4>AI Avtomatlaşdırma nədir və bizneslər üçün nəyi dəyişir?</h4>
                   <p>ChatBot-ların rolu, işçi xərclərinin azalması və zamana qənaət...</p>
                   <span className="blog-post-link">Oxu →</span>
                 </Link>
-                <Link to="/blog/erp-sistemi" className="blog-other-post-card">
+                <Link to="/blog/erp-system" className="blog-other-post-card">
                   <h4>ERP sistemi nədir və nə zaman lazımdır?</h4>
                   <p>Biznes idarəetməsi, Excel riskləri və böyük bizneslər üçün ERP...</p>
                   <span className="blog-post-link">Oxu →</span>
                 </Link>
-                <Link to="/blog/veb-sayt-satis-aleti" className="blog-other-post-card">
+                <Link to="/blog/website-sales-tool" className="blog-other-post-card">
                   <h4>Veb-sayt biznes üçün niyə satış alətidir?</h4>
                   <p>Online satış, satış artırılması və marketinq strategiyası haqqında...</p>
                   <span className="blog-post-link">Oxu →</span>

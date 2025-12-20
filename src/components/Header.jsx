@@ -25,14 +25,14 @@ const Header = () => {
             Ana Səhifə
           </Link>
           <Link 
-            to="/xidmetler" 
-            className={`nav-link ${isActive('/xidmetler') ? 'active' : ''}`}
+            to="/services" 
+            className={`nav-link ${isActive('/services') ? 'active' : ''}`}
           >
             Xidmətlər
           </Link>
           <Link 
-            to="/haqqimizda" 
-            className={`nav-link ${isActive('/haqqimizda') ? 'active' : ''}`}
+            to="/about" 
+            className={`nav-link ${isActive('/about') ? 'active' : ''}`}
           >
             Haqqımızda
           </Link>
@@ -49,8 +49,8 @@ const Header = () => {
             FAQ
           </Link>
           <Link 
-            to="/elaqe" 
-            className={`nav-link ${isActive('/elaqe') ? 'active' : ''}`}
+            to="/contact" 
+            className={`nav-link ${isActive('/contact') ? 'active' : ''}`}
           >
             Əlaqə
           </Link>

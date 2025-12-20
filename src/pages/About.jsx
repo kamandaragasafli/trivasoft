@@ -55,10 +55,10 @@ const About = () => {
           name="keywords" 
           content="TrivaSoft haqqında, rəqəmsal həllər şirkəti Bakı, IT konsaltinq Azərbaycan, texnologiya şirkəti" 
         />
-        <link rel="canonical" href="https://trivasoft.az/haqqimizda" />
+        <link rel="canonical" href="https://trivasoft.az/about" />
         <meta property="og:title" content="Haqqımızda - TrivaSoft Rəqəmsal Həllər | Bakı" />
         <meta property="og:description" content="TrivaSoft - Bakıda rəqəmsal transformasiya üzrə lider şirkət. 5+ il təcrübə, 100+ layihə, 50+ müştəri." />
-        <meta property="og:url" content="https://trivasoft.az/haqqimizda" />
+        <meta property="og:url" content="https://trivasoft.az/about" />
       </Helmet>
       <div className="about">
         <section className="about-hero">

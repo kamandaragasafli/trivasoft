@@ -52,10 +52,10 @@ const Footer = () => {
           <h4 className="footer-title">Səhifələr</h4>
           <ul className="footer-links">
             <li><Link to="/">Ana Səhifə</Link></li>
-            <li><Link to="/xidmetler">Xidmətlər</Link></li>
-            <li><Link to="/haqqimizda">Haqqımızda</Link></li>
+            <li><Link to="/services">Xidmətlər</Link></li>
+            <li><Link to="/about">Haqqımızda</Link></li>
             <li><Link to="/faq">FAQ</Link></li>
-            <li><Link to="/elaqe">Əlaqə</Link></li>
+            <li><Link to="/contact">Əlaqə</Link></li>
           </ul>
         </div>
 
@@ -63,16 +63,16 @@ const Footer = () => {
           <h4 className="footer-title">Xidmətlər</h4>
           <ul className="footer-links">
             <li>
-              <Link to="/xidmetler/ai">AI Avtomatlaşdırma</Link>
+              <Link to="/services/ai">AI Avtomatlaşdırma</Link>
             </li>
             <li>
-              <Link to="/xidmetler/web">Web Həllər</Link>
+              <Link to="/services/web">Web Həllər</Link>
             </li>
             <li>
-              <Link to="/xidmetler/erp">ERP Həlləri</Link>
+              <Link to="/services/erp">ERP Həlləri</Link>
             </li>
             <li>
-              <Link to="/xidmetler/marketinq">Marketinq</Link>
+              <Link to="/services/marketing">Marketinq</Link>
             </li>
           </ul>
         </div>

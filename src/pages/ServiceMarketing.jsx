@@ -331,16 +331,16 @@ const ServiceMarketing = () => {
           name="keywords" 
           content="rəqəmsal marketinq Bakı, SMM xidmətləri, SEO optimallaşdırma, brend strategiyası Azərbaycan" 
         />
-        <link rel="canonical" href="https://trivasoft.az/xidmetler/marketinq" />
+        <link rel="canonical" href="https://trivasoft.az/services/marketing" />
         <meta property="og:title" content="Marketinq - Rəqəmsal Marketinq, SMM, SEO | TrivaSoft" />
         <meta property="og:description" content="Rəqəmsal marketinq, SMM, SEO, brend strategiyası və kontent marketinqi xidmətləri." />
-        <meta property="og:url" content="https://trivasoft.az/xidmetler/marketinq" />
+        <meta property="og:url" content="https://trivasoft.az/services/marketing" />
       </Helmet>
       <div className="service-detail">
         <section className="service-detail-hero">
         <div className="service-detail-hero-background"></div>
         <div className="service-detail-hero-container" ref={heroRef}>
-          <Link to="/xidmetler" className="back-link">← Xidmətlərə qayıt</Link>
+          <Link to="/services" className="back-link">← Xidmətlərə qayıt</Link>
           <h1 className="service-detail-title">Marketinq</h1>
           <p className="service-detail-subtitle">
             Rəqəmsal marketinq strategiyaları ilə müştərilərinizə çatın

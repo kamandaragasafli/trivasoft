@@ -50,13 +50,13 @@ const Blog = () => {
           name="keywords" 
           content="AI avtomatlaşdırma, chatbot nədir, biznes avtomatlaşdırması, AI ChatBot, rəqəmsal transformasiya, işçi xərcləri azalması" 
         />
-        <link rel="canonical" href="https://trivasoft.az/blog" />
+        <link rel="canonical" href="https://trivasoft.az/blog/ai-automation" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content="AI Avtomatlaşdırma nədir və bizneslər üçün nəyi dəyişir? | TrivaSoft Blog" />
         <meta property="og:description" content="AI avtomatlaşdırma, chatbot texnologiyaları və biznes transformasiyası haqqında məqalə. ChatBot-ların rolu və faydaları." />
-        <meta property="og:url" content="https://trivasoft.az/blog" />
+        <meta property="og:url" content="https://trivasoft.az/blog/ai-automation" />
         <meta property="og:image" content="https://trivasoft.az/source/ai-1.jpg" />
         <meta property="article:published_time" content="2025-01-15T00:00:00+04:00" />
         <meta property="article:author" content="TrivaSoft" />
@@ -96,7 +96,7 @@ const Blog = () => {
             "dateModified": "2025-01-15T00:00:00+04:00",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://trivasoft.az/blog"
+              "@id": "https://trivasoft.az/blog/ai-automation"
             },
             "articleSection": "AI & Avtomatlaşdırma",
             "keywords": "AI avtomatlaşdırma, chatbot, biznes avtomatlaşdırması, rəqəmsal transformasiya"
@@ -337,10 +337,10 @@ const Blog = () => {
               <h3>AI Avtomatlaşdırma ilə Biznesinizi Gücləndirin</h3>
               <p>TrivaSoft ilə əlaqə saxlayın və biznesiniz üçün ən uyğun AI həllini müzakirə edək.</p>
               <div className="blog-cta-buttons">
-                <Link to="/xidmetler/ai" className="btn btn-primary">
+                <Link to="/services/ai" className="btn btn-primary">
                   AI Xidmətlərimiz
                 </Link>
-                <Link to="/elaqe" className="btn btn-secondary">
+                <Link to="/contact" className="btn btn-secondary">
                   Əlaqə Saxlayın
                 </Link>
               </div>
@@ -349,17 +349,17 @@ const Blog = () => {
             <div className="blog-other-posts">
               <h3>Digər Məqalələr</h3>
               <div className="blog-other-posts-grid">
-                <Link to="/blog/erp-sistemi" className="blog-other-post-card">
+                <Link to="/blog/erp-system" className="blog-other-post-card">
                   <h4>ERP sistemi nədir və nə zaman lazımdır?</h4>
                   <p>Biznes idarəetməsi, Excel riskləri və böyük bizneslər üçün ERP-nin əhəmiyyəti...</p>
                   <span className="blog-post-link">Oxu →</span>
                 </Link>
-                <Link to="/blog/veb-sayt-satis-aleti" className="blog-other-post-card">
+                <Link to="/blog/website-sales-tool" className="blog-other-post-card">
                   <h4>Veb-sayt biznes üçün niyə satış alətidir?</h4>
                   <p>Online satış, satış artırılması və marketinq strategiyası haqqında...</p>
                   <span className="blog-post-link">Oxu →</span>
                 </Link>
-                <Link to="/blog/marketinq-strategiyasi" className="blog-other-post-card">
+                <Link to="/blog/marketing-strategy" className="blog-other-post-card">
                   <h4>Marketinq strategiyası olmayan biznes niyə böyümür?</h4>
                   <p>Rəqəmsal marketinq, SMM, kontent marketinqi və satış qıfı haqqında...</p>
                   <span className="blog-post-link">Oxu →</span>

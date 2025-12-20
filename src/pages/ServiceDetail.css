@@ -100,6 +100,10 @@
   border: 1px solid rgba(0, 245, 160, 0.2);
 }
 
+.service-detail-card-header {
+  margin-bottom: 2.5rem;
+}
+
 .service-detail-card.animate-in {
   opacity: 1;
   transform: translateY(0) scale(1);
@@ -122,11 +126,6 @@
   transform: scaleX(1);
 }
 
-.service-detail-card:hover {
-  transform: translateY(-10px) scale(1.01);
-  box-shadow: 0 25px 60px rgba(0, 245, 160, 0.3);
-  border-color: var(--color-primary);
-}
 
 .service-detail-card-title {
   font-family: 'Inter Tight', sans-serif;
@@ -137,6 +136,7 @@
   position: relative;
   z-index: 1;
   transition: transform 0.3s ease;
+  margin-top: 0;
 }
 
 .service-detail-card:hover .service-detail-card-title {
@@ -146,7 +146,7 @@
 .service-detail-card-description {
   font-family: 'Inter', sans-serif;
   font-size: 1.15rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   opacity: 0.9;
   line-height: 1.8;
   position: relative;
@@ -155,7 +155,7 @@
 
 /* Expanded Content Styles */
 .service-detail-expanded {
-  margin: 2.5rem 0;
+  margin-top: 2.5rem;
   padding-top: 2.5rem;
   border-top: 1px solid rgba(0, 245, 160, 0.2);
   position: relative;
@@ -218,6 +218,9 @@
 .service-detail-benefits {
   position: relative;
   z-index: 1;
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(0, 245, 160, 0.2);
 }
 
 .benefits-title {
@@ -352,6 +355,10 @@
 
   .service-detail-card {
     padding: 2.5rem 2rem;
+  }
+
+  .service-detail-card-header {
+    margin-bottom: 2rem;
   }
 
   .service-detail-card-title {

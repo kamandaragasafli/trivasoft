@@ -50,13 +50,13 @@ const BlogERP = () => {
           name="keywords" 
           content="ERP sistemi, ERP nədir, biznes idarəetmə sistemi, Excel riskləri, böyük bizneslər üçün ERP, ERP Azərbaycan" 
         />
-        <link rel="canonical" href="https://trivasoft.az/blog/erp-sistemi" />
+        <link rel="canonical" href="https://trivasoft.az/blog/erp-system" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content="ERP sistemi nədir və nə zaman lazımdır? | TrivaSoft Blog" />
         <meta property="og:description" content="ERP sistemi, biznes idarəetməsi və Excel riskləri haqqında məqalə. TrivaSoft ERP həlləri." />
-        <meta property="og:url" content="https://trivasoft.az/blog/erp-sistemi" />
+        <meta property="og:url" content="https://trivasoft.az/blog/erp-system" />
         <meta property="og:image" content="https://trivasoft.az/source/erp-1.jpg" />
         <meta property="article:published_time" content="2025-01-20T00:00:00+04:00" />
         <meta property="article:author" content="TrivaSoft" />
@@ -96,7 +96,7 @@ const BlogERP = () => {
             "dateModified": "2025-01-20T00:00:00+04:00",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://trivasoft.az/blog/erp-sistemi"
+              "@id": "https://trivasoft.az/blog/erp-system"
             },
             "articleSection": "ERP & Biznes İdarəetməsi",
             "keywords": "ERP sistemi, ERP nədir, biznes idarəetmə sistemi, Excel riskləri"
@@ -333,10 +333,10 @@ const BlogERP = () => {
               <h3>TrivaSoft ERP Həlləri</h3>
               <p>Sistemli idarəetmə. Şəffaf qərarlar. Dayanıqlı biznes.</p>
               <div className="blog-cta-buttons">
-                <Link to="/xidmetler/erp" className="btn btn-primary">
+                <Link to="/services/erp" className="btn btn-primary">
                   ERP Xidmətlərimiz
                 </Link>
-                <Link to="/elaqe" className="btn btn-secondary">
+                <Link to="/contact" className="btn btn-secondary">
                   Əlaqə Saxlayın
                 </Link>
               </div>
@@ -345,17 +345,17 @@ const BlogERP = () => {
             <div className="blog-other-posts">
               <h3>Digər Məqalələr</h3>
               <div className="blog-other-posts-grid">
-                <Link to="/blog" className="blog-other-post-card">
+                <Link to="/blog/ai-automation" className="blog-other-post-card">
                   <h4>AI Avtomatlaşdırma nədir və bizneslər üçün nəyi dəyişir?</h4>
                   <p>ChatBot-ların rolu, işçi xərclərinin azalması və zamana qənaət...</p>
                   <span className="blog-post-link">Oxu →</span>
                 </Link>
-                <Link to="/blog/veb-sayt-satis-aleti" className="blog-other-post-card">
+                <Link to="/blog/website-sales-tool" className="blog-other-post-card">
                   <h4>Veb-sayt biznes üçün niyə satış alətidir?</h4>
                   <p>Online satış, satış artırılması və marketinq strategiyası haqqında...</p>
                   <span className="blog-post-link">Oxu →</span>
                 </Link>
-                <Link to="/blog/marketinq-strategiyasi" className="blog-other-post-card">
+                <Link to="/blog/marketing-strategy" className="blog-other-post-card">
                   <h4>Marketinq strategiyası olmayan biznes niyə böyümür?</h4>
                   <p>Rəqəmsal marketinq, SMM, kontent marketinqi və satış qıfı haqqında...</p>
                   <span className="blog-post-link">Oxu →</span>

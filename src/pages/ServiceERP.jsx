@@ -331,16 +331,16 @@ const ServiceERP = () => {
           name="keywords" 
           content="ERP sistemləri Azərbaycan, biznes idarəetmə sistemi, ERP konsaltinq Bakı, inventar idarəetmə sistemi" 
         />
-        <link rel="canonical" href="https://trivasoft.az/xidmetler/erp" />
+        <link rel="canonical" href="https://trivasoft.az/services/erp" />
         <meta property="og:title" content="ERP Həllər - Biznes İdarəetmə Sistemi | TrivaSoft" />
         <meta property="og:description" content="ERP sistemləri: maliyyə, inventar, satış, HR modulları. Biznesinizi vahid sistemdə idarə edin." />
-        <meta property="og:url" content="https://trivasoft.az/xidmetler/erp" />
+        <meta property="og:url" content="https://trivasoft.az/services/erp" />
       </Helmet>
       <div className="service-detail">
         <section className="service-detail-hero">
         <div className="service-detail-hero-background"></div>
         <div className="service-detail-hero-container" ref={heroRef}>
-          <Link to="/xidmetler" className="back-link">← Xidmətlərə qayıt</Link>
+          <Link to="/services" className="back-link">← Xidmətlərə qayıt</Link>
           <h1 className="service-detail-title">ERP Həllər</h1>
           <p className="service-detail-subtitle">
             Biznesinizi idarə etmək üçün güclü və effektiv ERP sistemləri

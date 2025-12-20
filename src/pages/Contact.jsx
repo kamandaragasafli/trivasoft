@@ -196,10 +196,10 @@ const Contact = () => {
           name="keywords" 
           content="TrivaSoft əlaqə, Bakı IT şirkəti, rəqəmsal həllər konsaltinqi, layihə təklifi" 
         />
-        <link rel="canonical" href="https://trivasoft.az/elaqe" />
+        <link rel="canonical" href="https://trivasoft.az/contact" />
         <meta property="og:title" content="Əlaqə - TrivaSoft ilə Əlaqə Saxlayın | Bakı" />
         <meta property="og:description" content="TrivaSoft ilə əlaqə saxlayın. Email, telefon və WhatsApp. Layihə təklifiniz üçün bizə yazın." />
-        <meta property="og:url" content="https://trivasoft.az/elaqe" />
+        <meta property="og:url" content="https://trivasoft.az/contact" />
       </Helmet>
       <div className="contact">
         <section className="contact-hero">

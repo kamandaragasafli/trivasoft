@@ -42,7 +42,7 @@ const BlogList = () => {
       title: 'AI Avtomatlaşdırma nədir və bizneslər üçün nəyi dəyişir?',
       excerpt: 'ChatBot-ların rolu, işçi xərclərinin azalması və zamana qənaət. AI avtomatlaşdırma biznes proseslərini köklü şəkildə dəyişir.',
       image: '/source/ai-1.jpg',
-      link: '/blog/ai-avtomatlasdırma',
+      link: '/blog/ai-automation',
       category: 'AI & Avtomatlaşdırma'
     },
     {
@@ -50,7 +50,7 @@ const BlogList = () => {
       title: 'ERP sistemi nədir və nə zaman lazımdır?',
       excerpt: 'Biznes idarəetməsi, Excel riskləri və böyük bizneslər üçün ERP-nin əhəmiyyəti. Sistemli idarəetmə üçün vacib həllər.',
       image: '/source/erp-1.jpg',
-      link: '/blog/erp-sistemi',
+      link: '/blog/erp-system',
       category: 'ERP & Biznes İdarəetməsi'
     },
     {
@@ -58,7 +58,7 @@ const BlogList = () => {
       title: 'Veb-sayt biznes üçün niyə satış alətidir?',
       excerpt: 'Online satış, satış artırılması və marketinq strategiyası. Müasir veb-sayt fasiləsiz işləyən satış menecerinə çevrilir.',
       image: '/source/web-4.png',
-      link: '/blog/veb-sayt-satis-aleti',
+      link: '/blog/website-sales-tool',
       category: 'Web & Satış'
     },
     {
@@ -66,7 +66,7 @@ const BlogList = () => {
       title: 'Marketinq strategiyası olmayan biznes niyə böyümür?',
       excerpt: 'Rəqəmsal marketinq, SMM, kontent marketinqi və satış qıfı. Marketinq strategiyası biznesin böyümə mexanizmidir.',
       image: '/source/marketing-1.jpg',
-      link: '/blog/marketinq-strategiyasi',
+      link: '/blog/marketing-strategy',
       category: 'Marketinq & Strategiya'
     }
   ]

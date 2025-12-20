@@ -215,16 +215,16 @@ const ServiceWeb = () => {
           name="keywords" 
           content="vebsayt dizaynı Bakı, e-ticarət platforması, mobil tətbiq hazırlama, SEO xidmətləri Azərbaycan" 
         />
-        <link rel="canonical" href="https://trivasoft.az/xidmetler/web" />
+        <link rel="canonical" href="https://trivasoft.az/services/web" />
         <meta property="og:title" content="Web Həllər - Vebsayt, E-ticarət, SEO | TrivaSoft" />
         <meta property="og:description" content="Vebsayt dizaynı, e-ticarət platformaları, mobil tətbiqlər və SEO xidmətləri. Bakıda peşəkar veb həlləri." />
-        <meta property="og:url" content="https://trivasoft.az/xidmetler/web" />
+        <meta property="og:url" content="https://trivasoft.az/services/web" />
       </Helmet>
       <div className="service-detail">
         <section className="service-detail-hero">
         <div className="service-detail-hero-background"></div>
         <div className="service-detail-hero-container" ref={heroRef}>
-          <Link to="/xidmetler" className="back-link">← Xidmətlərə qayıt</Link>
+          <Link to="/services" className="back-link">← Xidmətlərə qayıt</Link>
           <h1 className="service-detail-title">Web Həllər</h1>
           <p className="service-detail-subtitle">
             Müasir və performanslı veb saytlar, veb tətbiqlər və e-ticarət platformaları

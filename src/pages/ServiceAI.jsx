@@ -201,16 +201,16 @@ const ServiceAI = () => {
           name="keywords" 
           content="AI chatbot Azərbaycan, satış botu, AI avtomatlaşdırma Bakı, chatbot xidmətləri, hotel AI sistemləri" 
         />
-        <link rel="canonical" href="https://trivasoft.az/xidmetler/ai" />
+        <link rel="canonical" href="https://trivasoft.az/services/ai" />
         <meta property="og:title" content="AI Avtomatlaşdırma - Chatbot, Satış Botu | TrivaSoft" />
         <meta property="og:description" content="AI avtomatlaşdırma həlləri: chatbot, satış botları, hotel rezervasiya sistemləri. Bakıda AI xidmətləri." />
-        <meta property="og:url" content="https://trivasoft.az/xidmetler/ai" />
+        <meta property="og:url" content="https://trivasoft.az/services/ai" />
       </Helmet>
       <div className="service-detail">
         <section className="service-detail-hero">
         <div className="service-detail-hero-background"></div>
         <div className="service-detail-hero-container" ref={heroRef}>
-          <Link to="/xidmetler" className="back-link">← Xidmətlərə qayıt</Link>
+          <Link to="/services" className="back-link">← Xidmətlərə qayıt</Link>
           <h1 className="service-detail-title">AI Avtomatlaşdırma</h1>
           <p className="service-detail-subtitle">
             Müasir süni intellekt texnologiyaları ilə biznes proseslərinizi tam avtomatlaşdırın
@@ -221,13 +221,15 @@ const ServiceAI = () => {
       <section className="service-detail-content">
         <div className="service-detail-container">
           {services.map((service, index) => (
-            <div
+            <article
               key={service.id}
               className="service-detail-card"
               ref={(el) => (sectionsRef.current[index] = el)}
             >
-              <h2 className="service-detail-card-title">{service.title}</h2>
-              <p className="service-detail-card-description">{service.description}</p>
+              <header className="service-detail-card-header">
+                <h2 className="service-detail-card-title">{service.title}</h2>
+                <p className="service-detail-card-description">{service.description}</p>
+              </header>
               
               {service.detailedContent && (
                 <div className="service-detail-expanded">
@@ -268,21 +270,23 @@ const ServiceAI = () => {
                       <p className="service-detail-text">{service.detailedContent.conclusion}</p>
                     </div>
                   )}
+
+                  {service.benefits && service.benefits.length > 0 && (
+                    <div className="service-detail-benefits">
+                      <h3 className="benefits-title">Müsbət cəhətləri:</h3>
+                      <ul className="benefits-list">
+                        {service.benefits.map((benefit, idx) => (
+                          <li key={idx} className="benefit-item">
+                            <span className="benefit-check">✓</span>
+                            <span>{benefit}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
               )}
-
-              <div className="service-detail-benefits">
-                <h3 className="benefits-title">Müsbət cəhətləri:</h3>
-                <ul className="benefits-list">
-                  {service.benefits.map((benefit, idx) => (
-                    <li key={idx} className="benefit-item">
-                      <span className="benefit-check">✓</span>
-                      <span>{benefit}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+            </article>
           ))}
         </div>
         

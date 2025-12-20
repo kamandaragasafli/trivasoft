@@ -92,19 +92,19 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/xidmetler" element={<Services />} />
-            <Route path="/xidmetler/ai" element={<ServiceAI />} />
-            <Route path="/xidmetler/web" element={<ServiceWeb />} />
-            <Route path="/xidmetler/erp" element={<ServiceERP />} />
-            <Route path="/xidmetler/marketinq" element={<ServiceMarketing />} />
-            <Route path="/haqqimizda" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/services/ai" element={<ServiceAI />} />
+            <Route path="/services/web" element={<ServiceWeb />} />
+            <Route path="/services/erp" element={<ServiceERP />} />
+            <Route path="/services/marketing" element={<ServiceMarketing />} />
+            <Route path="/about" element={<About />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/blog" element={<BlogList />} />
-            <Route path="/blog/ai-avtomatlasdırma" element={<Blog />} />
-            <Route path="/blog/erp-sistemi" element={<BlogERP />} />
-            <Route path="/blog/veb-sayt-satis-aleti" element={<BlogWeb />} />
-            <Route path="/blog/marketinq-strategiyasi" element={<BlogMarketing />} />
-            <Route path="/elaqe" element={<Contact />} />
+            <Route path="/blog/ai-automation" element={<Blog />} />
+            <Route path="/blog/erp-system" element={<BlogERP />} />
+            <Route path="/blog/website-sales-tool" element={<BlogWeb />} />
+            <Route path="/blog/marketing-strategy" element={<BlogMarketing />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
           <Footer />
           <Chatbot />
