@@ -1,0 +1,54 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.cursor-dot {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  left: var(--mouse-x);
+  top: var(--mouse-y);
+  z-index: 10000;
+  transition: transform 0.15s ease-out, opacity 0.15s ease-out;
+  mix-blend-mode: difference;
+}
+
+.cursor-light {
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 245, 160, 0.25) 0%,
+    rgba(0, 217, 255, 0.15) 40%,
+    transparent 70%
+  );
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  left: var(--mouse-x);
+  top: var(--mouse-y);
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  mix-blend-mode: screen;
+}
+
+.cursor-light.active {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@media (max-width: 768px) {
+  .cursor-light {
+    display: none;
+  }
+}
+

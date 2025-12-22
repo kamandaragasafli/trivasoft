@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  --mouse-x: 50%;
+  --mouse-y: 50%;
+}
+
+:root {
+  --color-primary: #00F5A0;
+  --color-secondary: #00D9FF;
+  --color-dark: #0A3D48;
+  --color-light: #F2F4F7;
+  --color-dark-bg: #0F1114;
+  --color-text: #0F1114;
+  --color-text-light: #F2F4F7;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-text-light);
+  background-color: var(--color-dark-bg);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter Tight', 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+

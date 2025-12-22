@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeni Əlaqə Mesajı - TrivaSoft</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif; background-color: #f5f5f5;">
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
+        <tr>
+            <td align="center" style="padding: 40px 20px;">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" style="max-width: 600px; background-color: #0F1114; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);">
+                    <!-- Header -->
+                    <tr>
+                        <td style="background: linear-gradient(135deg, #00F5A0 0%, #00D9FF 100%); padding: 40px 30px; text-align: center;">
+                            <h1 style="margin: 0; color: #0F1114; font-size: 28px; font-weight: 700; font-family: 'Inter Tight', sans-serif;">
+                                🚀 Yeni Əlaqə Mesajı
+                            </h1>
+                            <p style="margin: 10px 0 0 0; color: #0F1114; font-size: 16px; opacity: 0.9;">
+                                TrivaSoft Əlaqə Formu
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <!-- Content -->
+                    <tr>
+                        <td style="padding: 40px 30px; background-color: #0F1114;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <!-- Müştəri Məlumatları -->
+                                <tr>
+                                    <td style="padding-bottom: 30px;">
+                                        <h2 style="margin: 0 0 20px 0; color: #00F5A0; font-size: 20px; font-weight: 600; font-family: 'Inter Tight', sans-serif; border-bottom: 2px solid #00F5A0; padding-bottom: 10px;">
+                                            👤 Müştəri Məlumatları
+                                        </h2>
+                                    </td>
+                                </tr>
+                                
+                                <!-- Ad Soyad -->
+                                <tr>
+                                    <td style="padding-bottom: 15px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: rgba(0, 245, 160, 0.1); border-left: 4px solid #00F5A0; border-radius: 8px; padding: 15px;">
+                                            <tr>
+                                                <td style="color: #00F5A0; font-weight: 600; font-size: 14px; padding-bottom: 5px; text-transform: uppercase; letter-spacing: 0.5px;">
+                                                    Ad Soyad
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="color: #F2F4F7; font-size: 16px; font-weight: 500;">
+                                                    {{from_name}}
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                
+                                <!-- Email -->
+                                <tr>
+                                    <td style="padding-bottom: 15px;">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: rgba(0, 217, 255, 0.1); border-left: 4px solid #00D9FF; border-radius: 8px; padding: 15px;">
+                                            <tr>
+                                                <td style="color: #00D9FF; font-weight: 600; font-size: 14px; padding-bottom: 5px; text-transform: uppercase; letter-spacing: 0.5px;">
+                                                    Email Ünvanı
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="mailto:{{from_email}}" style="color: #00D9FF; font-size: 16px; font-weight: 500; text-decoration: none;">
+                                                        {{from_email}}
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                
+                                <!-- Mesaj -->
+                                <tr>
+                                    <td style="padding-bottom: 20px;">
+                                        <h2 style="margin: 0 0 20px 0; color: #00F5A0; font-size: 20px; font-weight: 600; font-family: 'Inter Tight', sans-serif; border-bottom: 2px solid #00F5A0; padding-bottom: 10px;">
+                                            💬 Mesaj
+                                        </h2>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: rgba(15, 17, 20, 0.5); border: 1px solid rgba(0, 245, 160, 0.3); border-radius: 12px; padding: 20px;">
+                                            <tr>
+                                                <td style="color: #F2F4F7; font-size: 15px; line-height: 1.8; white-space: pre-wrap;">
+                                                    {{message}}
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Footer -->
+                    <tr>
+                        <td style="background-color: rgba(0, 245, 160, 0.1); padding: 30px; text-align: center; border-top: 1px solid rgba(0, 245, 160, 0.2);">
+                            <p style="margin: 0 0 10px 0; color: #00F5A0; font-size: 14px; font-weight: 600;">
+                                TrivaSoft - Rəqəmsal Həllər
+                            </p>
+                            <p style="margin: 0; color: rgba(242, 244, 247, 0.7); font-size: 12px;">
+                                Bu email {{from_email}} ünvanından göndərilmişdir
+                            </p>
+                            <p style="margin: 10px 0 0 0; color: rgba(242, 244, 247, 0.5); font-size: 11px;">
+                                © 2025 TrivaSoft. Bütün hüquqlar qorunur.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
