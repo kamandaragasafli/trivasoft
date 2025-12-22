@@ -228,6 +228,7 @@ const ServiceAI = () => {
               ref={(el) => (sectionsRef.current[index] = el)}
             >
               <header className="service-detail-card-header">
+                <div className="service-detail-card-number">{index + 1}</div>
                 <h2 className="service-detail-card-title">{service.title}</h2>
                 <p className="service-detail-card-description">{service.description}</p>
               </header>
