@@ -153,6 +153,48 @@ export const aiServices = [
         'Satışa yönəlik sosial media idarəçiliyi',
         'SMM xərclərinin azalması və effektivliyin artması'
       ]
+    },
+    {
+      id: 5,
+      title: 'SmartClinic AI – Həkimlər üçün Pasiyent İdarəetmə Sistemi',
+      description: 'Həkimlər üçün tam funksiyalı AI asistanı və pasiyent CRM sistemi. 7/24 işləyən ağıllı sistem pasiyentlərin idarə olunmasını tam avtomatlaşdırır.',
+      detailedContent: {
+        whatIs: 'SmartClinic AI — həkimlər üçün tam funksiyalı AI asistanı və pasiyent CRM sistemidir. Bu sistem sadəcə mesajlara cavab verən bir bot deyil. SmartClinic AI klinikanızda pasiyentlə bağlı görülən işlərin böyük hissəsini öz üzərinə götürür, siz isə yalnız əsas işinizə — müayinəyə və müalicəyə fokuslanırsınız. AI asistan gecə-gündüz, fasiləsiz işləyir və pasiyentlə ilk təmasdan sonrakı mərhələyədək prosesi idarə edir.',
+        whyImportant: 'Klinikalarda ən böyük problemlərdən biri pasiyent məlumatlarının mesajlarda itib-batması, gəlməyən pasiyentlərin sayının yüksək olması, qəbul saatlarının planlı keçirilməməsi və texniki işlərə çox vaxt sərf olunmasıdır. SmartClinic AI bu problemlərin hamısını avtomatik şəkildə həll edir. Sistem hər pasiyenti CRM-də qeyd edir, qəbul saatlarını planlaşdırır, xatırlatmalar göndərir, gəlməyən pasiyentləri izləyir, müayinədən sonra vəziyyəti soruşur. Nəticədə həkim texniki işlərdən azad olur və yalnız müayinəyə fokuslanır.',
+        howItWorks: [
+          { 
+            title: '1. AI asistan pasiyenti qarşılayır və məlumat toplayır', 
+            description: 'Pasiyent yazan kimi AI onu qarşılayır, suallar verir, müraciətini anlayır, məlumatlarını toplayır, uyğun qəbul vaxtını təklif edir. Bütün bu proseslər insan müdaxiləsi olmadan baş verir. AI sistem katibin, asistentin və qeydiyyatın gördüyü işi tam şəkildə əvəz edir.' 
+          },
+          { 
+            title: '2. Hər pasiyent avtomatik olaraq CRM-də qeyd olunur', 
+            description: 'Sistemdə hər pasiyent avtomatik olaraq CRM-də qeyd olunur. CRM-də hər pasiyent üçün adı və əlaqə məlumatı, müraciət səbəbi (AI tərəfindən qısa və anlaşılan şəkildə yazılır), qəbul tarixi, gəlib-gəlmədiyi, son vəziyyəti, növbəti addımı aydın şəkildə görünür. Həkim artıq "kim idi bu pasiyent?", "nə üçün yazmışdı?", "nə vaxt gələcəkdi?" kimi suallarla vaxt itirmir.' 
+          },
+          { 
+            title: '3. Gəlməyən pasiyent problemi həll olunur', 
+            description: 'AI sistem qəbul saatlarını qorumaq üçün əvvəlcədən xatırlatma göndərir, cavab gəlməzsə yenidən əlaqə yaradır, pasiyentə vaxtı dəyişmək və ya ləğv etmək imkanı verir. Bu yanaşma boş qalan qəbul saatlarını azaldır, həkimin maddi itkisini minimuma endirir, günü daha planlı edir.' 
+          },
+          { 
+            title: '4. Müayinədən sonra da asistan işləməyə davam edir', 
+            description: 'AI asistan pasiyenti müayinədən sonra unutmur. Müəyyən vaxt keçdikdən sonra vəziyyətini soruşur, ehtiyac varsa kontrol müayinəsinə çağırır, məmnun pasiyentlərdən rəy istəyir. Bu isə pasiyent məmnuniyyətini artırır, həkimin etibarını gücləndirir, tövsiyə yolu ilə yeni pasiyentlər gətirir.' 
+          },
+          { 
+            title: '5. AI + CRM birlikdə işləyir', 
+            description: 'AI pasiyentlə danışır, CRM isə yaddaş rolunu oynayır. Yəni AI danışır, məlumat toplayır, qərar verir, CRM isə hər şeyi saxlayır və nizamlayır. Bu birlik sayəsində heç bir pasiyent unudulmur, heç bir müraciət yarımçıq qalmır, bütün proses nəzarətdə olur.' 
+          }
+        ],
+        suitableFor: 'Bu AI və CRM əsaslı sistem fərdi çalışan həkimlər, özəl klinikalar, stomatoloji mərkəzlər, estetik və kosmetoloji klinikalar, psixoloqlar və terapevtlər üçün idealdır.',
+        conclusion: 'SmartClinic AI ilə həkim 7/24 işləyən bir asistana sahib olur, mesaj xaosundan xilas olur, pasiyent itirmir, qəbul saatlarını daha dolu keçirir, vaxtını daha düzgün bölür, gəlirinin artdığını hiss edir. Ən əsası isə — həkim texniki işlərdən azad olur və yalnız müayinəyə fokuslanır.'
+      },
+      benefits: [
+        '7/24 işləyən AI asistan və pasiyent idarəetmə sistemi',
+        'Hər pasiyentin avtomatik CRM-də qeydiyyatı',
+        'Qəbul saatlarının avtomatik planlaşdırılması və xatırlatmalar',
+        'Gəlməyən pasiyentlərin izlənməsi və yenidən əlaqə',
+        'Müayinədən sonra pasiyentlərdən vəziyyət sorğusu',
+        'Katibin və asistentin işinin tam avtomatlaşdırılması',
+        'Pasiyent məlumatlarının itib-batmaması və sistemli idarəetmə'
+      ]
     }
   ]
 
