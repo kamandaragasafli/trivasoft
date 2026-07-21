@@ -234,7 +234,7 @@ const ServiceAI = () => {
   return (
     <>
       <Helmet>
-        <title>AI Avtomatlaşdırma - Chatbot, Satış Botu | TrivaSoft</title>
+        <title>AI Avtomatlaşdırma - Chatbot, Satış Botu | CivilSofts</title>
         <meta 
           name="description" 
           content="AI avtomatlaşdırma həlləri: chatbot, satış botları, hotel rezervasiya sistemləri, SMM avtomatlaşdırma. Bakıda AI xidmətləri." 
@@ -243,11 +243,11 @@ const ServiceAI = () => {
           name="keywords" 
           content="AI chatbot Azərbaycan, satış botu, AI avtomatlaşdırma Bakı, chatbot xidmətləri, hotel AI sistemləri" 
         />
-        <link rel="canonical" href="https://trivasoft.az/services/ai" />
-        <meta property="og:title" content="AI Avtomatlaşdırma - Chatbot, Satış Botu | TrivaSoft" />
+        <link rel="canonical" href="https://civilsofts.az/services/ai" />
+        <meta property="og:title" content="AI Avtomatlaşdırma - Chatbot, Satış Botu | CivilSofts" />
         <meta property="og:description" content="AI avtomatlaşdırma həlləri: chatbot, satış botları, hotel rezervasiya sistemləri. Bakıda AI xidmətləri." />
-        <meta property="og:url" content="https://trivasoft.az/services/ai" />
-        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
+        <meta property="og:url" content="https://civilsofts.az/services/ai" />
+        <meta property="og:image" content="https://civilsofts.az/favicon.png" />
       </Helmet>
       <div className="services">
         <section className="services-hero">

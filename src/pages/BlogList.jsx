@@ -74,21 +74,21 @@ const BlogList = () => {
   return (
     <>
       <Helmet>
-        <title>Blog - Rəqəmsal Biznes və Texnologiya Məqalələri | TrivaSoft</title>
+        <title>Blog - Rəqəmsal Biznes və Texnologiya Məqalələri | CivilSofts</title>
         <meta 
           name="description" 
-          content="AI avtomatlaşdırma, ERP sistemləri, rəqəmsal marketinq, veb dizayn və biznes transformasiyası haqqında məqalələr. TrivaSoft blog." 
+          content="AI avtomatlaşdırma, ERP sistemləri, rəqəmsal marketinq, veb dizayn və biznes transformasiyası haqqında məqalələr. CivilSofts blog." 
         />
         <meta 
           name="keywords" 
           content="AI avtomatlaşdırma blog, ERP blog, rəqəmsal marketinq məqalələri, veb dizayn blog, biznes strategiyası" 
         />
-        <link rel="canonical" href="https://trivasoft.az/blog" />
-        <meta property="og:title" content="Blog - Rəqəmsal Biznes və Texnologiya Məqalələri | TrivaSoft" />
-        <meta property="og:description" content="AI, ERP, marketinq və veb texnologiyaları haqqında məqalələr. TrivaSoft blog." />
-        <meta property="og:url" content="https://trivasoft.az/blog" />
+        <link rel="canonical" href="https://civilsofts.az/blog" />
+        <meta property="og:title" content="Blog - Rəqəmsal Biznes və Texnologiya Məqalələri | CivilSofts" />
+        <meta property="og:description" content="AI, ERP, marketinq və veb texnologiyaları haqqında məqalələr. CivilSofts blog." />
+        <meta property="og:url" content="https://civilsofts.az/blog" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
+        <meta property="og:image" content="https://civilsofts.az/favicon.png" />
       </Helmet>
       <div className="blog-page">
         <section className="blog-hero">

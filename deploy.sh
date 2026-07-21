@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# TrivaSoft Deploy Script
+# CivilSofts Deploy Script
 # GitHub'dan pull edip build ve deploy eder
 
-echo "🚀 TrivaSoft Deploy Başlatılıyor..."
+echo "🚀 CivilSofts Deploy Başlatılıyor..."
 
 # Proje klasörüne git
 cd "$(dirname "$0")" || exit
@@ -27,7 +27,7 @@ if [ -d "dist" ]; then
     echo ""
     echo "💡 Sonraki adımlar:"
     echo "1. Build dosyalarını web sunucunuza kopyalayın:"
-    echo "   sudo cp -r dist/* /var/www/html/trivasoft/"
+    echo "   sudo cp -r dist/* /var/www/html/civilsofts/"
     echo ""
     echo "2. Nginx/Apache restart edin:"
     echo "   sudo systemctl restart nginx"

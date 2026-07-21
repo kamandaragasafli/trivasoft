@@ -79,7 +79,7 @@ Marketing strategy planning concept, business growth chart with marketing metric
 - **Generation Quality:** High / Ultra High
 - **Output Resolution:** 1024x1024+ (scaled to target size)
 
-### Color Palette (TrivaSoft Brand Colors):
+### Color Palette (CivilSofts Brand Colors):
 - **Primary Color:** #00F5A0 (Turquoise/Green)
 - **Secondary Color:** #00D9FF (Cyan/Blue)
 - **Background:** Clean white, light gray, veya dark (#1a1a1a)
@@ -111,7 +111,7 @@ Marketing strategy planning concept, business growth chart with marketing metric
 - ✅ Professional və corporate görünüş
 - ✅ Clean və minimalist dizayn
 - ✅ Modern technology aesthetic
-- ✅ TrivaSoft brand colors (blue/turquoise gradients)
+- ✅ CivilSofts brand colors (blue/turquoise gradients)
 - ✅ High quality və crisp details
 - ❌ Text/mətn elementləri olmamalıdır
 - ❌ Çox qarışıq və dağınıq dizayn olmamalıdır

@@ -9,7 +9,7 @@ export const webServices = [
       title: 'Web-Saytların Hazırlanması',
       description: 'Biznesin rəqəmsal imicini gücləndirən, satış və təqdimat məqsədli peşəkar veb-saytların hazırlanması.',
       detailedContent: {
-        whatIs: 'Web-Saytların Hazırlanması — biznesin rəqəmsal mühitdə necə təqdim olunacağını, müştərinin sizi necə tapacağını və sayt üzərindən necə satış və müraciət yaradacağını müəyyən edən strateji texnoloji prosesdir. Müasir biznes üçün sayt sadəcə vizit kartı deyil. Sayt müştərinin ilk təmas nöqtəsidir, etibarın əsas mənbəyidir, satış və marketinqin mərkəzidir. Trivasoft üçün web-sayt dizayn edilmiş səhifə yox, satış və böyümə alətidir.',
+        whatIs: 'Web-Saytların Hazırlanması — biznesin rəqəmsal mühitdə necə təqdim olunacağını, müştərinin sizi necə tapacağını və sayt üzərindən necə satış və müraciət yaradacağını müəyyən edən strateji texnoloji prosesdir. Müasir biznes üçün sayt sadəcə vizit kartı deyil. Sayt müştərinin ilk təmas nöqtəsidir, etibarın əsas mənbəyidir, satış və marketinqin mərkəzidir. CivilSofts üçün web-sayt dizayn edilmiş səhifə yox, satış və böyümə alətidir.',
         whyImportant: 'Bir çox biznesdə sayt mövcuddur, dizayn edilib, məlumat yerləşdirilib, amma müştəri yazmır, satış gəlmir, sayt Google-da görünmür, etibar yaratmır. Bunun səbəbi saytın olmasında yox, strateji və satış yönümlü qurulmamasındadır.',
         howItWorks: [
           { 
@@ -50,7 +50,7 @@ export const webServices = [
       title: 'İnternet Mağazaların Yaradılması (E-commerce)',
       description: 'Onlayn satışları artırmaq üçün funksional və etibarlı internet mağazalarının hazırlanması.',
       detailedContent: {
-        whatIs: 'İnternet Mağazaların Yaradılması (E-commerce) — məhsul və ya xidmətlərin online mühitdə 24/7 satılmasını təmin edən, ödəniş, sifariş, stok və müştəri proseslərini tam avtomatlaşdıran satış sistemidir. Müasir dövrdə e-commerce sadəcə alternativ satış kanalı deyil. E-commerce satışın davamlı mənbəyidir, coğrafi məhdudiyyəti aradan qaldırır, biznesi miqyaslana bilən edir. Trivasoft üçün internet mağaza məhsul sərgilənən sayt yox, satış istehsal edən sistemdir.',
+        whatIs: 'İnternet Mağazaların Yaradılması (E-commerce) — məhsul və ya xidmətlərin online mühitdə 24/7 satılmasını təmin edən, ödəniş, sifariş, stok və müştəri proseslərini tam avtomatlaşdıran satış sistemidir. Müasir dövrdə e-commerce sadəcə alternativ satış kanalı deyil. E-commerce satışın davamlı mənbəyidir, coğrafi məhdudiyyəti aradan qaldırır, biznesi miqyaslana bilən edir. CivilSofts üçün internet mağaza məhsul sərgilənən sayt yox, satış istehsal edən sistemdir.',
         whyImportant: 'Bir çox biznesdə məhsulu var, bazarı var, tələbi var, amma satış yalnız fiziki məkandan asılıdır, sosial media üzərindən qeyri-sistemli satış edir, sifariş və stok qarışıqlığı yaşayır. Bu isə satış imkanlarının itirilməsi, vaxt və resurs itkisi, böyümənin ləngiməsi deməkdir.',
         howItWorks: [
           { 
@@ -91,7 +91,7 @@ export const webServices = [
       title: 'Mobil Tətbiqlərin Hazırlanması',
       description: 'iOS və Android platformaları üçün biznesə uyğun mobil tətbiqlərin hazırlanması.',
       detailedContent: {
-        whatIs: 'Mobil Tətbiqlərin Hazırlanması — biznesin müştəri ilə birbaşa, sürətli və daimi əlaqə qurmasını təmin edən, satış, xidmət və idarəetmə proseslərini mobil platformaya daşıyan rəqəmsal həllərdir. Bugünkü istifadəçi davranışı göstərir ki müştərilər daha çox mobil telefondan istifadə edir, sürətli və rahat tətbiqləri seçir, brauzerdən çox tətbiq üzərindən ünsiyyət qurur. Trivasoft üçün mobil tətbiq sadəcə texnoloji məhsul yox, müştəriyə ən yaxın satış və xidmət kanalıdır.',
+        whatIs: 'Mobil Tətbiqlərin Hazırlanması — biznesin müştəri ilə birbaşa, sürətli və daimi əlaqə qurmasını təmin edən, satış, xidmət və idarəetmə proseslərini mobil platformaya daşıyan rəqəmsal həllərdir. Bugünkü istifadəçi davranışı göstərir ki müştərilər daha çox mobil telefondan istifadə edir, sürətli və rahat tətbiqləri seçir, brauzerdən çox tətbiq üzərindən ünsiyyət qurur. CivilSofts üçün mobil tətbiq sadəcə texnoloji məhsul yox, müştəriyə ən yaxın satış və xidmət kanalıdır.',
         whyImportant: 'Bir çox biznesdə sayt sahibidir, sosial mediada aktivdir, reklam edir, amma müştəri ilə daimi əlaqə qura bilmir, sifariş və xidmət proseslərini mobil səviyyədə optimallaşdıra bilmir, müştəri sədaqətini itirir. Bu isə təkrar satışların azalması, müştərinin rəqibə keçməsi, xidmət keyfiyyətinin zəifləməsi ilə nəticələnir.',
         howItWorks: [
           { 
@@ -132,7 +132,7 @@ export const webServices = [
       title: 'SEO Xidmətləri',
       description: 'Veb-saytların Google və digər axtarış platformalarında daha üst sıralarda çıxması üçün peşəkar SEO həlləri.',
       detailedContent: {
-        whatIs: 'SEO (Search Engine Optimization) — veb-saytın Google və digər axtarış sistemlərində ödənişsiz şəkildə yuxarı sıralarda görünməsini, daha çox potensial müştəri cəlb etməsini və satışa çevrilməsini təmin edən strateji rəqəmsal marketinq prosesidir. SEO sadəcə "Google-da çıxmaq" deyil. SEO düzgün auditoriyanı tapmaq, doğru zamanda görünmək, müştərini sayta gətirib qərara yönləndirmək deməkdir. Trivasoft üçün SEO reklama davamlı pul xərcləmədən stabil müştəri axını yaradan sistemdir.',
+        whatIs: 'SEO (Search Engine Optimization) — veb-saytın Google və digər axtarış sistemlərində ödənişsiz şəkildə yuxarı sıralarda görünməsini, daha çox potensial müştəri cəlb etməsini və satışa çevrilməsini təmin edən strateji rəqəmsal marketinq prosesidir. SEO sadəcə "Google-da çıxmaq" deyil. SEO düzgün auditoriyanı tapmaq, doğru zamanda görünmək, müştərini sayta gətirib qərara yönləndirmək deməkdir. CivilSofts üçün SEO reklama davamlı pul xərcləmədən stabil müştəri axını yaradan sistemdir.',
         whyImportant: 'Bir çox biznesdə reklam verir, büdcə xərcləyir, kampaniyalar edir, amma reklam dayanan kimi müraciətlər kəsilir, uzunmüddətli müştəri axını yoxdur, Google-da rəqiblər önə çıxır. Bu problemin kökü SEO-nun olmamasıdır.',
         howItWorks: [
           { 
@@ -206,7 +206,7 @@ const ServiceWeb = () => {
   return (
     <>
       <Helmet>
-        <title>Web Həllər - Vebsayt, E-ticarət, SEO | TrivaSoft</title>
+        <title>Web Həllər - Vebsayt, E-ticarət, SEO | CivilSofts</title>
         <meta 
           name="description" 
           content="Vebsayt dizaynı, e-ticarət platformaları, mobil tətbiqlər və SEO xidmətləri. Bakıda peşəkar veb həlləri." 
@@ -215,11 +215,11 @@ const ServiceWeb = () => {
           name="keywords" 
           content="vebsayt dizaynı Bakı, e-ticarət platforması, mobil tətbiq hazırlama, SEO xidmətləri Azərbaycan" 
         />
-        <link rel="canonical" href="https://trivasoft.az/services/web" />
-        <meta property="og:title" content="Web Həllər - Vebsayt, E-ticarət, SEO | TrivaSoft" />
+        <link rel="canonical" href="https://civilsofts.az/services/web" />
+        <meta property="og:title" content="Web Həllər - Vebsayt, E-ticarət, SEO | CivilSofts" />
         <meta property="og:description" content="Vebsayt dizaynı, e-ticarət platformaları, mobil tətbiqlər və SEO xidmətləri. Bakıda peşəkar veb həlləri." />
-        <meta property="og:url" content="https://trivasoft.az/services/web" />
-        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
+        <meta property="og:url" content="https://civilsofts.az/services/web" />
+        <meta property="og:image" content="https://civilsofts.az/favicon.png" />
       </Helmet>
       <div className="services">
         <section className="services-hero">

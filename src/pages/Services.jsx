@@ -96,20 +96,20 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>TrivaSoft - Xidmətlərimiz | AI, ERP, Marketinq, Web</title>
+        <title>CivilSofts - Xidmətlərimiz | AI, ERP, Marketinq, Web</title>
         <meta 
           name="description" 
-          content="TrivaSoft geniş xidmət spektri: AI avtomatlaşdırma, ERP sistemləri, rəqəmsal marketinq və veb dizayn. Biznesiniz üçün kompleks həllər." 
+          content="CivilSofts geniş xidmət spektri: AI avtomatlaşdırma, ERP sistemləri, rəqəmsal marketinq və veb dizayn. Biznesiniz üçün kompleks həllər." 
         />
         <meta 
           name="keywords" 
           content="AI avtomatlaşdırma xidmətləri, ERP sistemləri Azərbaycan, rəqəmsal marketinq xidmətləri, veb sayt dizaynı Bakı, chatbot xidmətləri" 
         />
-        <link rel="canonical" href="https://trivasoft.az/services" />
-        <meta property="og:title" content="TrivaSoft - Xidmətlərimiz | AI, ERP, Marketinq, Web" />
-        <meta property="og:description" content="TrivaSoft geniş xidmət spektri: AI avtomatlaşdırma, ERP sistemləri, rəqəmsal marketinq və veb dizayn. Biznesiniz üçün kompleks həllər." />
-        <meta property="og:url" content="https://trivasoft.az/services" />
-        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
+        <link rel="canonical" href="https://civilsofts.az/services" />
+        <meta property="og:title" content="CivilSofts - Xidmətlərimiz | AI, ERP, Marketinq, Web" />
+        <meta property="og:description" content="CivilSofts geniş xidmət spektri: AI avtomatlaşdırma, ERP sistemləri, rəqəmsal marketinq və veb dizayn. Biznesiniz üçün kompleks həllər." />
+        <meta property="og:url" content="https://civilsofts.az/services" />
+        <meta property="og:image" content="https://civilsofts.az/favicon.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
       </Helmet>

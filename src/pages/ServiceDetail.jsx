@@ -90,12 +90,12 @@ const ServiceDetail = () => {
   return (
     <>
       <Helmet>
-        <title>{service.title} - {getTitle()} | TrivaSoft</title>
+        <title>{service.title} - {getTitle()} | CivilSofts</title>
         <meta 
           name="description" 
           content={service.description}
         />
-        <link rel="canonical" href={`https://trivasoft.az/services/${type}/${id}`} />
+        <link rel="canonical" href={`https://civilsofts.az/services/${type}/${id}`} />
       </Helmet>
       <div className="service-detail">
         <section className="service-detail-hero">

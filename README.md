@@ -1,6 +1,6 @@
-# TrivaSoft - Rəqəmsal Həllər
+# CivilSofts - Rəqəmsal Həllər
 
-TrivaSoft, Azərbaycanda rəqəmsal həllər təqdim edən innovativ texnologiya şirkətidir.
+CivilSofts, Azərbaycanda rəqəmsal həllər təqdim edən innovativ texnologiya şirkətidir.
 
 ## 🚀 Xüsusiyyətlər
 
@@ -38,6 +38,7 @@ npm run preview
 `.env` faylı yaradın və aşağıdakı dəyərləri əlavə edin:
 
 ```env
+VITE_OPENAI_API_KEY=your_openai_api_key_here
 VITE_EMAILJS_SERVICE_ID=your_service_id
 VITE_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_EMAILJS_PUBLIC_KEY=your_public_key
@@ -46,7 +47,7 @@ VITE_EMAILJS_PUBLIC_KEY=your_public_key
 ## 📁 Struktur
 
 ```
-trivasoft/
+CivilSofts/
 ├── public/
 │   ├── favicon.png
 │   ├── robots.txt
@@ -88,11 +89,11 @@ trivasoft/
 
 ## 📧 Əlaqə
 
-- **Email**: info@trivasoft.az
+- **Email**: info@civilsofts.az
 - **Telefon**: +994 50 476 88 43
 - **Ünvan**: Bakı, Azərbaycan
 
 ## 📄 Lisenziya
 
-© 2025 TrivaSoft. Bütün hüquqlar qorunur.
+© 2025 CivilSofts. Bütün hüquqlar qorunur.
 

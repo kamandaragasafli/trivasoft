@@ -46,20 +46,20 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>Haqqımızda - TrivaSoft Rəqəmsal Həllər | Bakı</title>
+        <title>Haqqımızda - CivilSofts Rəqəmsal Həllər | Bakı</title>
         <meta 
           name="description" 
-          content="TrivaSoft - Bakıda rəqəmsal transformasiya üzrə lider şirkət. 5+ il təcrübə, 100+ layihə, 50+ müştəri. AI, ERP və marketinq həlləri." 
+          content="CivilSofts - Bakıda rəqəmsal transformasiya üzrə lider şirkət. 5+ il təcrübə, 100+ layihə, 50+ müştəri. AI, ERP və marketinq həlləri." 
         />
         <meta 
           name="keywords" 
-          content="TrivaSoft haqqında, rəqəmsal həllər şirkəti Bakı, IT konsaltinq Azərbaycan, texnologiya şirkəti" 
+          content="CivilSofts haqqında, rəqəmsal həllər şirkəti Bakı, IT konsaltinq Azərbaycan, texnologiya şirkəti" 
         />
-        <link rel="canonical" href="https://trivasoft.az/about" />
-        <meta property="og:title" content="Haqqımızda - TrivaSoft Rəqəmsal Həllər | Bakı" />
-        <meta property="og:description" content="TrivaSoft - Bakıda rəqəmsal transformasiya üzrə lider şirkət. 5+ il təcrübə, 100+ layihə, 50+ müştəri." />
-        <meta property="og:url" content="https://trivasoft.az/about" />
-        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
+        <link rel="canonical" href="https://civilsofts.az/about" />
+        <meta property="og:title" content="Haqqımızda - CivilSofts Rəqəmsal Həllər | Bakı" />
+        <meta property="og:description" content="CivilSofts - Bakıda rəqəmsal transformasiya üzrə lider şirkət. 5+ il təcrübə, 100+ layihə, 50+ müştəri." />
+        <meta property="og:url" content="https://civilsofts.az/about" />
+        <meta property="og:image" content="https://civilsofts.az/favicon.png" />
       </Helmet>
       <div className="about">
         <section className="about-hero">
@@ -67,7 +67,7 @@ const About = () => {
         <div className="about-hero-container" ref={heroRef}>
           <h1 className="about-title">Haqqımızda</h1>
           <p className="about-subtitle">
-            TrivaSoft - Rəqəmsal dünyada innovativ həllər
+            CivilSofts - Rəqəmsal dünyada innovativ həllər
           </p>
         </div>
       </section>
@@ -80,7 +80,7 @@ const About = () => {
           >
             <h2 className="section-title">Biz Kimik?</h2>
             <p className="section-text">
-              TrivaSoft olaraq, bizneslərin rəqəmsal transformasiyasında liderik. 
+              CivilSofts olaraq, bizneslərin rəqəmsal transformasiyasında liderik. 
               Müasir texnologiyalar və innovativ yanaşmalarla müştərilərimizə 
               ən yaxşı həlləri təqdim edirik.
             </p>

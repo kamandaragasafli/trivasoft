@@ -13,14 +13,14 @@ ssh kullanici@domain.com
 
 #### 2. Proje Klasörüne Gidin
 ```bash
-cd /var/www/trivasoft
+cd /var/www/civilsofts
 # veya projenizin bulunduğu klasör
 ```
 
 #### 3. GitHub'dan Pull Edin
 ```bash
 # Eğer ilk kez çekiyorsanız
-git clone https://github.com/kamandaragasafli/trivasoft.git
+git clone https://github.com/kamandaragasafli/CivilSofts.git
 
 # Eğer zaten klonlanmışsa
 git pull origin main
@@ -39,10 +39,10 @@ npm run build
 #### 6. Build Dosyalarını Deploy Edin
 ```bash
 # Nginx için
-sudo cp -r dist/* /var/www/html/trivasoft/
+sudo cp -r dist/* /var/www/html/civilsofts/
 
 # Apache için
-sudo cp -r dist/* /var/www/html/trivasoft/
+sudo cp -r dist/* /var/www/html/civilsofts/
 ```
 
 ---
@@ -54,7 +54,7 @@ sudo cp -r dist/* /var/www/html/trivasoft/
 #!/bin/bash
 
 # Proje klasörüne git
-cd /var/www/trivasoft
+cd /var/www/civilsofts
 
 # GitHub'dan pull et
 git pull origin main
@@ -66,7 +66,7 @@ npm install
 npm run build
 
 # Build dosyalarını deploy et
-sudo cp -r dist/* /var/www/html/trivasoft/
+sudo cp -r dist/* /var/www/html/civilsofts/
 
 # Nginx/Apache restart (gerekirse)
 sudo systemctl restart nginx
@@ -127,7 +127,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SSH_KEY }}
         source: "dist/*"
-        target: "/var/www/html/trivasoft"
+        target: "/var/www/html/civilsofts"
 ```
 
 ---
@@ -138,7 +138,7 @@ jobs:
 1. https://vercel.com adresine gidin
 2. GitHub hesabınızla giriş yapın
 3. "New Project" tıklayın
-4. Repository'yi seçin: `kamandaragasafli/trivasoft`
+4. Repository'yi seçin: `kamandaragasafli/CivilSofts`
 5. Environment Variables ekleyin
 6. Deploy edin
 
@@ -202,13 +202,13 @@ sudo apt-get install apache2
 
 ## 🔧 Nginx Konfigurasyonu
 
-### /etc/nginx/sites-available/trivasoft
+### /etc/nginx/sites-available/civilsofts
 ```nginx
 server {
     listen 80;
-    server_name trivasoft.az www.trivasoft.az;
+    server_name civilsofts.az www.civilsofts.az;
     
-    root /var/www/html/trivasoft;
+    root /var/www/html/civilsofts;
     index index.html;
     
     location / {
@@ -223,7 +223,7 @@ server {
 
 ### Nginx'i Aktif Edin
 ```bash
-sudo ln -s /etc/nginx/sites-available/trivasoft /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/civilsofts /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl restart nginx
 ```
@@ -234,7 +234,7 @@ sudo systemctl restart nginx
 
 ### .env Dosyası Oluşturun
 ```bash
-cd /var/www/trivasoft
+cd /var/www/civilsofts
 nano .env
 ```
 
@@ -251,7 +251,7 @@ VITE_EMAILJS_PUBLIC_KEY=tqLw7xcNXcctC8E74
 
 Sunucuda tek komutla deploy:
 ```bash
-cd /var/www/trivasoft && git pull origin main && npm install && npm run build && sudo cp -r dist/* /var/www/html/trivasoft/ && echo "✅ Deploy tamamlandı!"
+cd /var/www/civilsofts && git pull origin main && npm install && npm run build && sudo cp -r dist/* /var/www/html/civilsofts/ && echo "✅ Deploy tamamlandı!"
 ```
 
 ---

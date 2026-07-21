@@ -41,25 +41,25 @@ const BlogERP = () => {
   return (
     <>
       <Helmet>
-        <title>ERP sistemi nədir və nə zaman lazımdır? | TrivaSoft Blog</title>
+        <title>ERP sistemi nədir və nə zaman lazımdır? | CivilSofts Blog</title>
         <meta 
           name="description" 
-          content="ERP sistemi, biznes idarəetməsi, Excel riskləri və böyük bizneslər üçün ERP-nin əhəmiyyəti haqqında məqalə. TrivaSoft ERP həlləri." 
+          content="ERP sistemi, biznes idarəetməsi, Excel riskləri və böyük bizneslər üçün ERP-nin əhəmiyyəti haqqında məqalə. CivilSofts ERP həlləri." 
         />
         <meta 
           name="keywords" 
           content="ERP sistemi, ERP nədir, biznes idarəetmə sistemi, Excel riskləri, böyük bizneslər üçün ERP, ERP Azərbaycan" 
         />
-        <link rel="canonical" href="https://trivasoft.az/blog/erp-system" />
+        <link rel="canonical" href="https://civilsofts.az/blog/erp-system" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="ERP sistemi nədir və nə zaman lazımdır? | TrivaSoft Blog" />
-        <meta property="og:description" content="ERP sistemi, biznes idarəetməsi və Excel riskləri haqqında məqalə. TrivaSoft ERP həlləri." />
-        <meta property="og:url" content="https://trivasoft.az/blog/erp-system" />
-        <meta property="og:image" content="https://trivasoft.az/source/erp-1.jpg" />
+        <meta property="og:title" content="ERP sistemi nədir və nə zaman lazımdır? | CivilSofts Blog" />
+        <meta property="og:description" content="ERP sistemi, biznes idarəetməsi və Excel riskləri haqqında məqalə. CivilSofts ERP həlləri." />
+        <meta property="og:url" content="https://civilsofts.az/blog/erp-system" />
+        <meta property="og:image" content="https://civilsofts.az/source/erp-1.jpg" />
         <meta property="article:published_time" content="2025-01-20T00:00:00+04:00" />
-        <meta property="article:author" content="TrivaSoft" />
+        <meta property="article:author" content="CivilSofts" />
         <meta property="article:section" content="ERP & Biznes İdarəetməsi" />
         <meta property="article:tag" content="ERP" />
         <meta property="article:tag" content="Biznes İdarəetməsi" />
@@ -68,8 +68,8 @@ const BlogERP = () => {
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="ERP sistemi nədir və nə zaman lazımdır?" />
-        <meta name="twitter:description" content="ERP sistemi və biznes idarəetməsi haqqında məqalə. TrivaSoft blog." />
-        <meta name="twitter:image" content="https://trivasoft.az/source/erp-1.jpg" />
+        <meta name="twitter:description" content="ERP sistemi və biznes idarəetməsi haqqında məqalə. CivilSofts blog." />
+        <meta name="twitter:image" content="https://civilsofts.az/source/erp-1.jpg" />
 
         {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
@@ -78,25 +78,25 @@ const BlogERP = () => {
             "@type": "BlogPosting",
             "headline": "ERP sistemi nədir və nə zaman lazımdır?",
             "description": "ERP sistemi, biznes idarəetməsi, Excel riskləri və böyük bizneslər üçün ERP-nin əhəmiyyəti haqqında məqalə.",
-            "image": "https://trivasoft.az/source/erp-1.jpg",
+            "image": "https://civilsofts.az/source/erp-1.jpg",
             "author": {
               "@type": "Organization",
-              "name": "TrivaSoft",
-              "url": "https://trivasoft.az"
+              "name": "CivilSofts",
+              "url": "https://civilsofts.az"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "TrivaSoft",
+              "name": "CivilSofts",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://trivasoft.az/favicon.png"
+                "url": "https://civilsofts.az/favicon.png"
               }
             },
             "datePublished": "2025-01-20T00:00:00+04:00",
             "dateModified": "2025-01-20T00:00:00+04:00",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://trivasoft.az/blog/erp-system"
+              "@id": "https://civilsofts.az/blog/erp-system"
             },
             "articleSection": "ERP & Biznes İdarəetməsi",
             "keywords": "ERP sistemi, ERP nədir, biznes idarəetmə sistemi, Excel riskləri"
@@ -122,14 +122,14 @@ const BlogERP = () => {
               <div className="blog-meta">
                 <span className="blog-category" itemProp="articleSection">ERP & Biznes İdarəetməsi</span>
               </div>
-              <meta itemProp="author" content="TrivaSoft" />
-              <meta itemProp="publisher" content="TrivaSoft" />
+              <meta itemProp="author" content="CivilSofts" />
+              <meta itemProp="publisher" content="CivilSofts" />
             </header>
 
             <div className="blog-image">
               <img 
                 src="/source/erp-1.jpg" 
-                alt="ERP Sistemi - Biznes İdarəetməsi - TrivaSoft" 
+                alt="ERP Sistemi - Biznes İdarəetməsi - CivilSofts" 
                 className="blog-featured-image"
                 loading="eager"
               />
@@ -199,7 +199,7 @@ const BlogERP = () => {
             <div className="blog-image">
               <img 
                 src="/source/erp-2.png" 
-                alt="Excel vs ERP - Risk Müqayisəsi - TrivaSoft" 
+                alt="Excel vs ERP - Risk Müqayisəsi - CivilSofts" 
                 className="blog-content-image"
                 loading="lazy"
               />
@@ -285,9 +285,9 @@ const BlogERP = () => {
             </div>
 
             <div className="blog-section">
-              <h2>TrivaSoft-un ERP yanaşması</h2>
+              <h2>CivilSofts-un ERP yanaşması</h2>
               <p>
-                TrivaSoft ERP həllərinə texniki proqram kimi yox, <strong>biznes idarəetmə aləti</strong> kimi yanaşır.
+                CivilSofts ERP həllərinə texniki proqram kimi yox, <strong>biznes idarəetmə aləti</strong> kimi yanaşır.
               </p>
               <p>Biz:</p>
               <ul className="blog-list">
@@ -304,7 +304,7 @@ const BlogERP = () => {
             <div className="blog-image">
               <img 
                 src="/source/erp-3.png" 
-                alt="ERP Sisteminin Biznesə Faydaları - TrivaSoft" 
+                alt="ERP Sisteminin Biznesə Faydaları - CivilSofts" 
                 className="blog-content-image"
                 loading="lazy"
               />
@@ -330,7 +330,7 @@ const BlogERP = () => {
             </div>
 
             <div className="blog-cta">
-              <h3>TrivaSoft ERP Həlləri</h3>
+              <h3>CivilSofts ERP Həlləri</h3>
               <p>Sistemli idarəetmə. Şəffaf qərarlar. Dayanıqlı biznes.</p>
               <div className="blog-cta-buttons">
                 <Link to="/services/erp" className="btn btn-primary">

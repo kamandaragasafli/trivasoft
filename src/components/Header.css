@@ -49,6 +49,21 @@
   object-fit: contain;
 }
 
+.logo-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0F1114;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  box-shadow: 0 0 14px rgba(0, 245, 160, 0.4);
+}
+
 .logo-text {
   font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
@@ -143,6 +158,13 @@
 
   .logo-icon {
     width: 32px;
+  }
+
+  .logo-badge {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    font-size: 0.75rem;
   }
 
   .logo-text {

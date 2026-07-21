@@ -41,7 +41,7 @@ const Blog = () => {
   return (
     <>
       <Helmet>
-        <title>AI Avtomatlaşdırma nədir və bizneslər üçün nəyi dəyişir? | TrivaSoft Blog</title>
+        <title>AI Avtomatlaşdırma nədir və bizneslər üçün nəyi dəyişir? | CivilSofts Blog</title>
         <meta 
           name="description" 
           content="AI avtomatlaşdırma, chatbot texnologiyaları, biznes avtomatlaşdırması və rəqəmsal transformasiya haqqında məqalə. ChatBot-ların rolu, işçi xərclərinin azalması və zamana qənaət." 
@@ -50,16 +50,16 @@ const Blog = () => {
           name="keywords" 
           content="AI avtomatlaşdırma, chatbot nədir, biznes avtomatlaşdırması, AI ChatBot, rəqəmsal transformasiya, işçi xərcləri azalması" 
         />
-        <link rel="canonical" href="https://trivasoft.az/blog/ai-automation" />
+        <link rel="canonical" href="https://civilsofts.az/blog/ai-automation" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="AI Avtomatlaşdırma nədir və bizneslər üçün nəyi dəyişir? | TrivaSoft Blog" />
+        <meta property="og:title" content="AI Avtomatlaşdırma nədir və bizneslər üçün nəyi dəyişir? | CivilSofts Blog" />
         <meta property="og:description" content="AI avtomatlaşdırma, chatbot texnologiyaları və biznes transformasiyası haqqında məqalə. ChatBot-ların rolu və faydaları." />
-        <meta property="og:url" content="https://trivasoft.az/blog/ai-automation" />
-        <meta property="og:image" content="https://trivasoft.az/source/ai-1.jpg" />
+        <meta property="og:url" content="https://civilsofts.az/blog/ai-automation" />
+        <meta property="og:image" content="https://civilsofts.az/source/ai-1.jpg" />
         <meta property="article:published_time" content="2025-01-15T00:00:00+04:00" />
-        <meta property="article:author" content="TrivaSoft" />
+        <meta property="article:author" content="CivilSofts" />
         <meta property="article:section" content="AI & Avtomatlaşdırma" />
         <meta property="article:tag" content="AI" />
         <meta property="article:tag" content="ChatBot" />
@@ -68,8 +68,8 @@ const Blog = () => {
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI Avtomatlaşdırma nədir və bizneslər üçün nəyi dəyişir?" />
-        <meta name="twitter:description" content="AI avtomatlaşdırma və chatbot texnologiyaları haqqında məqalə. TrivaSoft blog." />
-        <meta name="twitter:image" content="https://trivasoft.az/source/ai-1.jpg" />
+        <meta name="twitter:description" content="AI avtomatlaşdırma və chatbot texnologiyaları haqqında məqalə. CivilSofts blog." />
+        <meta name="twitter:image" content="https://civilsofts.az/source/ai-1.jpg" />
 
         {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
@@ -78,25 +78,25 @@ const Blog = () => {
             "@type": "BlogPosting",
             "headline": "AI Avtomatlaşdırma nədir və bizneslər üçün nəyi dəyişir?",
             "description": "AI avtomatlaşdırma, chatbot texnologiyaları, biznes avtomatlaşdırması və rəqəmsal transformasiya haqqında məqalə. ChatBot-ların rolu, işçi xərclərinin azalması və zamana qənaət.",
-            "image": "https://trivasoft.az/source/ai-1.jpg",
+            "image": "https://civilsofts.az/source/ai-1.jpg",
             "author": {
               "@type": "Organization",
-              "name": "TrivaSoft",
-              "url": "https://trivasoft.az"
+              "name": "CivilSofts",
+              "url": "https://civilsofts.az"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "TrivaSoft",
+              "name": "CivilSofts",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://trivasoft.az/favicon.png"
+                "url": "https://civilsofts.az/favicon.png"
               }
             },
             "datePublished": "2025-01-15T00:00:00+04:00",
             "dateModified": "2025-01-15T00:00:00+04:00",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://trivasoft.az/blog/ai-automation"
+              "@id": "https://civilsofts.az/blog/ai-automation"
             },
             "articleSection": "AI & Avtomatlaşdırma",
             "keywords": "AI avtomatlaşdırma, chatbot, biznes avtomatlaşdırması, rəqəmsal transformasiya"
@@ -122,14 +122,14 @@ const Blog = () => {
               <div className="blog-meta">
                 <span className="blog-category" itemProp="articleSection">AI & Avtomatlaşdırma</span>
               </div>
-              <meta itemProp="author" content="TrivaSoft" />
-              <meta itemProp="publisher" content="TrivaSoft" />
+              <meta itemProp="author" content="CivilSofts" />
+              <meta itemProp="publisher" content="CivilSofts" />
             </header>
 
             <div className="blog-image">
               <img 
                 src="/source/ai-1.jpg" 
-                alt="AI Avtomatlaşdırma - Biznes Transformasiyası - TrivaSoft" 
+                alt="AI Avtomatlaşdırma - Biznes Transformasiyası - CivilSofts" 
                 className="blog-featured-image"
                 loading="eager"
               />
@@ -178,7 +178,7 @@ const Blog = () => {
             <div className="blog-image">
               <img 
                 src="/source/ai-2.jpg" 
-                alt="ChatBot və AI Avtomatlaşdırma - Müştəri Xidmətləri - TrivaSoft" 
+                alt="ChatBot və AI Avtomatlaşdırma - Müştəri Xidmətləri - CivilSofts" 
                 className="blog-content-image"
                 loading="lazy"
               />
@@ -280,7 +280,7 @@ const Blog = () => {
             <div className="blog-image">
               <img 
                 src="/source/ai-3.jpg" 
-                alt="Biznes Avtomatlaşdırması - Nəticələr və ROI - TrivaSoft" 
+                alt="Biznes Avtomatlaşdırması - Nəticələr və ROI - CivilSofts" 
                 className="blog-content-image"
                 loading="lazy"
               />
@@ -314,9 +314,9 @@ const Blog = () => {
             </div>
 
             <div className="blog-section">
-              <h2>TrivaSoft-un AI Avtomatlaşdırma yanaşması</h2>
+              <h2>CivilSofts-un AI Avtomatlaşdırma yanaşması</h2>
               <p>
-                TrivaSoft üçün AI avtomatlaşdırma sadəcə texnologiya deyil.
+                CivilSofts üçün AI avtomatlaşdırma sadəcə texnologiya deyil.
               </p>
               <p>Biz:</p>
               <ul className="blog-list">
@@ -324,7 +324,7 @@ const Blog = () => {
                 <li>problemin harada yarandığını müəyyən edirik,</li>
                 <li>uyğun AI həllini qururuq.</li>
               </ul>
-              <p>TrivaSoft-un AI avtomatlaşdırma xidmətlərinə daxildir:</p>
+              <p>CivilSofts-un AI avtomatlaşdırma xidmətlərinə daxildir:</p>
               <ul className="blog-list">
                 <li>AI ChatBot-lar,</li>
                 <li>satış və rezervasiya avtomatlaşdırması,</li>
@@ -335,7 +335,7 @@ const Blog = () => {
 
             <div className="blog-cta">
               <h3>AI Avtomatlaşdırma ilə Biznesinizi Gücləndirin</h3>
-              <p>TrivaSoft ilə əlaqə saxlayın və biznesiniz üçün ən uyğun AI həllini müzakirə edək.</p>
+              <p>CivilSofts ilə əlaqə saxlayın və biznesiniz üçün ən uyğun AI həllini müzakirə edək.</p>
               <div className="blog-cta-buttons">
                 <Link to="/services/ai" className="btn btn-primary">
                   AI Xidmətlərimiz

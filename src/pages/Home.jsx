@@ -42,20 +42,20 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>TrivaSoft - AI Avtomatlaşdırma, ERP, Rəqəmsal Marketinq | Bakı</title>
+        <title>CivilSofts - AI Avtomatlaşdırma, ERP, Rəqəmsal Marketinq | Bakı</title>
         <meta 
           name="description" 
-          content="TrivaSoft - Bakıda AI avtomatlaşdırma, ERP həlləri, rəqəmsal marketinq və veb dizayn xidmətləri. Biznesinizi rəqəmsal dünyada uğura çatdırın." 
+          content="CivilSofts - Bakıda AI avtomatlaşdırma, ERP həlləri, rəqəmsal marketinq və veb dizayn xidmətləri. Biznesinizi rəqəmsal dünyada uğura çatdırın." 
         />
         <meta 
           name="keywords" 
           content="AI avtomatlaşdırma Bakı, ERP sistemləri Azərbaycan, rəqəmsal marketinq, veb sayt dizaynı, chatbot, SEO xidmətləri, rəqəmsal transformasiya" 
         />
-        <link rel="canonical" href="https://trivasoft.az/" />
-        <meta property="og:title" content="TrivaSoft - AI Avtomatlaşdırma, ERP, Rəqəmsal Marketinq | Bakı" />
-        <meta property="og:description" content="TrivaSoft - Bakıda AI avtomatlaşdırma, ERP həlləri, rəqəmsal marketinq və veb dizayn xidmətləri. Biznesinizi rəqəmsal dünyada uğura çatdırın." />
-        <meta property="og:url" content="https://trivasoft.az/" />
-        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
+        <link rel="canonical" href="https://civilsofts.az/" />
+        <meta property="og:title" content="CivilSofts - AI Avtomatlaşdırma, ERP, Rəqəmsal Marketinq | Bakı" />
+        <meta property="og:description" content="CivilSofts - Bakıda AI avtomatlaşdırma, ERP həlləri, rəqəmsal marketinq və veb dizayn xidmətləri. Biznesinizi rəqəmsal dünyada uğura çatdırın." />
+        <meta property="og:url" content="https://civilsofts.az/" />
+        <meta property="og:image" content="https://civilsofts.az/favicon.png" />
       </Helmet>
       <div className="home">
         <section className="hero">
@@ -66,7 +66,7 @@ const Home = () => {
             loop 
             muted 
             playsInline
-            aria-label="TrivaSoft rəqəmsal həllər arxa plan videosu"
+            aria-label="CivilSofts rəqəmsal həllər arxa plan videosu"
           >
             <source src={heroVideo} type="video/mp4" />
           </video>
@@ -79,7 +79,7 @@ const Home = () => {
             <span className="title-line">Qururuq</span>
           </h1>
           <p className="hero-description">
-            TrivaSoft ilə biznesinizi növbəti səviyyəyə qaldırın. AI avtomatlaşdırma, 
+            CivilSofts ilə biznesinizi növbəti səviyyəyə qaldırın. AI avtomatlaşdırma, 
             ERP həlləri, Web həlləri və marketinq strategiyaları ilə uğura çatın.
           </p>
           <div className="hero-buttons">

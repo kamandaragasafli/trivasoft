@@ -1,6 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
 import './Header.css'
-import logoImage from '../source/icon.png'
 
 const Header = () => {
   const location = useLocation()
@@ -12,9 +11,9 @@ const Header = () => {
   return (
     <header className="header" role="banner">
       <div className="header-container">
-        <Link to="/" className="logo" aria-label="TrivaSoft Ana Səhifə">
-          <img src={logoImage} alt="TrivaSoft Logo - Rəqəmsal Həllər" className="logo-icon" width="40" height="40" />
-          <span className="logo-text">trivasoft</span>
+        <Link to="/" className="logo" aria-label="CivilSofts Ana Səhifə">
+          <div className="logo-badge" aria-hidden="true">CS</div>
+          <span className="logo-text">CivilSofts</span>
         </Link>
         
         <nav className="nav" role="navigation" aria-label="Əsas Navigasiya">

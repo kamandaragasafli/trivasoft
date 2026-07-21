@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://trivasoft.az/sitemap.xml
+Sitemap: https://civilsofts.az/sitemap.xml
 
 # Disallow admin or private areas if any
 # Disallow: /admin/

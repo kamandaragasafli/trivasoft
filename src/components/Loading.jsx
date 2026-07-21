@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import './Loading.css'
-import logoImage from '../source/icon.png'
 
 const Loading = ({ onComplete }) => {
   const [progress, setProgress] = useState(0)
@@ -102,7 +101,7 @@ const Loading = ({ onComplete }) => {
     }, 300)
 
     // Harfleri sırayla göster (logo göründükten sonra)
-    const word = 'trıvasoft'
+    const word = 'civilsofts'
     const letterStartDelay = 800 // Logo göründükten sonra başla
     const letterInterval = 120 // Her harf arası 120ms
 
@@ -147,20 +146,14 @@ const Loading = ({ onComplete }) => {
     }
   }, [onComplete])
 
-  const word = 'trıvasoft'
+  const word = 'civilsofts'
 
   return (
     <div className={`loading-screen ${fadeOut ? 'fade-out' : ''}`}>
       <div className="loading-content">
         {/* Logo görseli */}
         <div className={`logo-symbol ${logoVisible ? 'visible' : ''} ${zoomStarted ? 'zoom-out' : ''}`}>
-          <img 
-            src={logoImage} 
-            alt="TrivaSoft Logo" 
-            className="logo-image"
-            loading="eager"
-            decoding="async"
-          />
+          <div className="logo-badge-loading" aria-hidden="true">CS</div>
         </div>
         
         {/* Logo yazısı */}
@@ -172,14 +165,7 @@ const Loading = ({ onComplete }) => {
                 className={`loading-letter ${lettersVisible.includes(index) ? 'visible' : ''}`}
                 style={{ '--delay': `${index * 0.1}s` }}
               >
-                {letter === 'ı' ? (
-                  <>
-                    <span className="i-dot"></span>
-                    {letter}
-                  </>
-                ) : (
-                  letter
-                )}
+                {letter}
               </span>
             ))}
           </div>

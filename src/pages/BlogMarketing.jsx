@@ -41,25 +41,25 @@ const BlogMarketing = () => {
   return (
     <>
       <Helmet>
-        <title>Marketinq strategiyası olmayan biznes niyə böyümür? | TrivaSoft Blog</title>
+        <title>Marketinq strategiyası olmayan biznes niyə böyümür? | CivilSofts Blog</title>
         <meta 
           name="description" 
-          content="Marketinq strategiyası, rəqəmsal marketinq, SMM, kontent marketinqi və satış qıfı haqqında məqalə. TrivaSoft Marketinq xidmətləri." 
+          content="Marketinq strategiyası, rəqəmsal marketinq, SMM, kontent marketinqi və satış qıfı haqqında məqalə. CivilSofts Marketinq xidmətləri." 
         />
         <meta 
           name="keywords" 
           content="marketinq strategiyası, rəqəmsal marketinq, SMM, kontent marketinqi, satış qıfı, marketinq planı, brend strategiyası" 
         />
-        <link rel="canonical" href="https://trivasoft.az/blog/marketing-strategy" />
+        <link rel="canonical" href="https://civilsofts.az/blog/marketing-strategy" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Marketinq strategiyası olmayan biznes niyə böyümür? | TrivaSoft Blog" />
-        <meta property="og:description" content="Marketinq strategiyası, rəqəmsal marketinq və SMM haqqında məqalə. TrivaSoft Marketinq xidmətləri." />
-        <meta property="og:url" content="https://trivasoft.az/blog/marketing-strategy" />
-        <meta property="og:image" content="https://trivasoft.az/source/marketing-1.jpg" />
+        <meta property="og:title" content="Marketinq strategiyası olmayan biznes niyə böyümür? | CivilSofts Blog" />
+        <meta property="og:description" content="Marketinq strategiyası, rəqəmsal marketinq və SMM haqqında məqalə. CivilSofts Marketinq xidmətləri." />
+        <meta property="og:url" content="https://civilsofts.az/blog/marketing-strategy" />
+        <meta property="og:image" content="https://civilsofts.az/source/marketing-1.jpg" />
         <meta property="article:published_time" content="2025-01-30T00:00:00+04:00" />
-        <meta property="article:author" content="TrivaSoft" />
+        <meta property="article:author" content="CivilSofts" />
         <meta property="article:section" content="Marketinq & Strategiya" />
         <meta property="article:tag" content="Marketinq Strategiyası" />
         <meta property="article:tag" content="Rəqəmsal Marketinq" />
@@ -68,8 +68,8 @@ const BlogMarketing = () => {
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Marketinq strategiyası olmayan biznes niyə böyümür?" />
-        <meta name="twitter:description" content="Marketinq strategiyası və rəqəmsal marketinq haqqında məqalə. TrivaSoft blog." />
-        <meta name="twitter:image" content="https://trivasoft.az/source/marketing-1.jpg" />
+        <meta name="twitter:description" content="Marketinq strategiyası və rəqəmsal marketinq haqqında məqalə. CivilSofts blog." />
+        <meta name="twitter:image" content="https://civilsofts.az/source/marketing-1.jpg" />
 
         {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
@@ -78,25 +78,25 @@ const BlogMarketing = () => {
             "@type": "BlogPosting",
             "headline": "Marketinq strategiyası olmayan biznes niyə böyümür?",
             "description": "Marketinq strategiyası, rəqəmsal marketinq, SMM, kontent marketinqi və satış qıfı haqqında məqalə.",
-            "image": "https://trivasoft.az/source/marketing-1.jpg",
+            "image": "https://civilsofts.az/source/marketing-1.jpg",
             "author": {
               "@type": "Organization",
-              "name": "TrivaSoft",
-              "url": "https://trivasoft.az"
+              "name": "CivilSofts",
+              "url": "https://civilsofts.az"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "TrivaSoft",
+              "name": "CivilSofts",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://trivasoft.az/favicon.png"
+                "url": "https://civilsofts.az/favicon.png"
               }
             },
             "datePublished": "2025-01-30T00:00:00+04:00",
             "dateModified": "2025-01-30T00:00:00+04:00",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://trivasoft.az/blog/marketing-strategy"
+              "@id": "https://civilsofts.az/blog/marketing-strategy"
             },
             "articleSection": "Marketinq & Strategiya",
             "keywords": "marketinq strategiyası, rəqəmsal marketinq, SMM, kontent marketinqi"
@@ -122,14 +122,14 @@ const BlogMarketing = () => {
               <div className="blog-meta">
                 <span className="blog-category" itemProp="articleSection">Marketinq & Strategiya</span>
               </div>
-              <meta itemProp="author" content="TrivaSoft" />
-              <meta itemProp="publisher" content="TrivaSoft" />
+              <meta itemProp="author" content="CivilSofts" />
+              <meta itemProp="publisher" content="CivilSofts" />
             </header>
 
             <div className="blog-image">
               <img 
                 src="/source/marketing-1.jpg" 
-                alt="Marketinq Strategiyası - Rəqəmsal Marketinq - TrivaSoft" 
+                alt="Marketinq Strategiyası - Rəqəmsal Marketinq - CivilSofts" 
                 className="blog-featured-image"
                 loading="eager"
               />
@@ -208,7 +208,7 @@ const BlogMarketing = () => {
             <div className="blog-image">
               <img 
                 src="/source/marketing-2.jpg" 
-                alt="SMM və Kontent Marketinqi - TrivaSoft" 
+                alt="SMM və Kontent Marketinqi - CivilSofts" 
                 className="blog-content-image"
                 loading="lazy"
               />
@@ -309,7 +309,7 @@ const BlogMarketing = () => {
             <div className="blog-image">
               <img 
                 src="/source/marketing-3.png" 
-                alt="4P Modeli və Marketinq Strategiyası - TrivaSoft" 
+                alt="4P Modeli və Marketinq Strategiyası - CivilSofts" 
                 className="blog-content-image"
                 loading="lazy"
               />
@@ -353,9 +353,9 @@ const BlogMarketing = () => {
             </div>
 
             <div className="blog-section">
-              <h2>TrivaSoft-un marketinq yanaşması</h2>
+              <h2>CivilSofts-un marketinq yanaşması</h2>
               <p>
-                TrivaSoft marketinqi:
+                CivilSofts marketinqi:
               </p>
               <ul className="blog-list">
                 <li>təkcə reklam kimi yox,</li>
@@ -401,7 +401,7 @@ const BlogMarketing = () => {
             </div>
 
             <div className="blog-cta">
-              <h3>TrivaSoft Marketinq Xidmətləri</h3>
+              <h3>CivilSofts Marketinq Xidmətləri</h3>
               <p>Strategiya. Sistem. Ölçülə bilən böyümə.</p>
               <div className="blog-cta-buttons">
                 <Link to="/services/marketing" className="btn btn-primary">

@@ -6,14 +6,14 @@ const Footer = () => {
     <footer className="footer" role="contentinfo">
       <div className="footer-container">
         <div className="footer-section">
-          <h3 className="footer-logo">TrivaSoft</h3>
+          <h3 className="footer-logo">CivilSofts</h3>
           <p className="footer-description">
             Rəqəmsal dünyada innovativ həllər təqdim edən lider agentlik.
             Biznesinizi növbəti səviyyəyə qaldırırıq.
           </p>
           <div className="footer-social">
             <a 
-              href="https://www.facebook.com/trivasoft" 
+              href="https://www.facebook.com/civilsofts" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-link"
@@ -24,7 +24,7 @@ const Footer = () => {
               </svg>
             </a>
             <a 
-              href="https://www.instagram.com/trivasoft?igsh=eWR1dmphaWNleW92" 
+              href="https://www.instagram.com/civilsofts?igsh=eWR1dmphaWNleW92" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-link"
@@ -35,7 +35,7 @@ const Footer = () => {
               </svg>
             </a>
             <a 
-              href="https://www.linkedin.com/company/trivasoft" 
+              href="https://www.linkedin.com/company/civilsofts" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-link"
@@ -82,7 +82,7 @@ const Footer = () => {
           <ul className="footer-contact">
             <li>
               <span className="contact-icon">📧</span>
-              <span>info@trivasoft.az</span>
+              <span>info@civilsofts.az</span>
             </li>
             <li>
               <span className="contact-icon">📱</span>
@@ -99,7 +99,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="footer-bottom-container">
           <p className="copyright">
-            © {new Date().getFullYear()} TrivaSoft. Bütün hüquqlar qorunur.
+            © {new Date().getFullYear()} CivilSofts. Bütün hüquqlar qorunur.
           </p>
         </div>
       </div>

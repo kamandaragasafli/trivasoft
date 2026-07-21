@@ -9,7 +9,7 @@ export const marketingServices = [
       title: 'Rəqəmsal Marketinq Strategiyasının Hazırlanması',
       description: 'Biznes məqsədlərinə uyğun, ölçülə bilən və nəticəyönümlü marketinq strategiyalarının qurulması.',
       detailedContent: {
-        whatIs: 'Rəqəmsal Marketinq Strategiyası — biznesin online mühitdə necə görünəcəyini, müştəriyə necə çatacağını, hansı kanallardan satış edəcəyini və marketinq büdcəsini necə səmərəli istifadə edəcəyini müəyyən edən strateji yol xəritəsidir. Strategiya olmadan edilən marketinq təsadüfi olur, pul xərcləyir amma nəticə vermir, satışa çevrilmir. Trivasoft-un hazırladığı rəqəmsal marketinq strategiyası marketinqi xərc yox, ölçülə bilən investisiyaya çevirir.',
+        whatIs: 'Rəqəmsal Marketinq Strategiyası — biznesin online mühitdə necə görünəcəyini, müştəriyə necə çatacağını, hansı kanallardan satış edəcəyini və marketinq büdcəsini necə səmərəli istifadə edəcəyini müəyyən edən strateji yol xəritəsidir. Strategiya olmadan edilən marketinq təsadüfi olur, pul xərcləyir amma nəticə vermir, satışa çevrilmir. CivilSofts-un hazırladığı rəqəmsal marketinq strategiyası marketinqi xərc yox, ölçülə bilən investisiyaya çevirir.',
         whyImportant: 'Bir çox biznesdə sosial mediada paylaşım edilir, reklam verilir, dizayn hazırlanır, amma bunlar vahid məqsədə xidmət etmir. Nəticədə izləyici var satış yoxdur, reklam gedir geri dönüş zəifdir, marketinq xərcləri boşa gedir, rəhbərlik marketinqin real təsirini görmür. Bu nöqtədə problem icra deyil — strateji boşluqdur.',
         howItWorks: [
           { 
@@ -49,7 +49,7 @@ export const marketingServices = [
       title: 'Brend Strategiyası və Mövqeləndirmə (Brending)',
       description: 'Brendin bazarda tanıdılması və mövqeləndirilməsi.',
       detailedContent: {
-        whatIs: 'Brend Strategiyası və Mövqeləndirmə (Brending) — biznesin bazarda necə tanınacağını, müştərinin sizi necə xatırlayacağını və rəqiblərdən nə ilə fərqlənəcəyinizi müəyyən edən strateji prosesdir. Brend sadəcə loqo və rənglər deyil. Brend müştərinin sizə olan etibarıdır, seçim anında sizi xatırlamasıdır, qiymətə yox dəyərə görə seçilməyinizdir. Trivasoft-un brend strategiyası xidməti şirkəti bazarda görünən yox, seçilən brendə çevirir.',
+        whatIs: 'Brend Strategiyası və Mövqeləndirmə (Brending) — biznesin bazarda necə tanınacağını, müştərinin sizi necə xatırlayacağını və rəqiblərdən nə ilə fərqlənəcəyinizi müəyyən edən strateji prosesdir. Brend sadəcə loqo və rənglər deyil. Brend müştərinin sizə olan etibarıdır, seçim anında sizi xatırlamasıdır, qiymətə yox dəyərə görə seçilməyinizdir. CivilSofts-un brend strategiyası xidməti şirkəti bazarda görünən yox, seçilən brendə çevirir.',
         whyImportant: 'Bir çox biznesdə loqoya malikdir, sosial mediada paylaşımlar edir, reklam verir, amma müştərinin beynində aydın mövqe tutmur. Nəticədə müştəri sizi rəqiblərlə qarışdırır, qiymət yarışına düşürsünüz, fərqlənmə gücünüz zəifləyir, satışlar təsadüfi olur. Bu problemin kökü strateji brend mövqeləndirməsinin olmamasıdır.',
         howItWorks: [
           { 
@@ -89,7 +89,7 @@ export const marketingServices = [
       title: 'Sosial Media Marketinqi və İdarəetmə',
       description: 'Brendin sosial media kanallarında effektiv və satışyönümlü idarə olunması.',
       detailedContent: {
-        whatIs: 'Sosial Media Marketinqi və İdarəetmə — brendin sosial platformalarda (Instagram, Facebook, LinkedIn və s.) planlı, strateji və satış yönümlü şəkildə idarə olunmasıdır. Bu xidmət sadəcə paylaşım etmək deyil, müştəri cəlb etmək, etibar yaratmaq və satışı artırmaq üçün qurulan sistemdir. Trivasoft-un yanaşmasında sosial media vaxt dolduran platforma yox, satış və böyümə alətidir.',
+        whatIs: 'Sosial Media Marketinqi və İdarəetmə — brendin sosial platformalarda (Instagram, Facebook, LinkedIn və s.) planlı, strateji və satış yönümlü şəkildə idarə olunmasıdır. Bu xidmət sadəcə paylaşım etmək deyil, müştəri cəlb etmək, etibar yaratmaq və satışı artırmaq üçün qurulan sistemdir. CivilSofts-un yanaşmasında sosial media vaxt dolduran platforma yox, satış və böyümə alətidir.',
         whyImportant: 'Bir çox biznesdə paylaşımlar edilir, dizayn hazırlayır, reklam verir, amma müştəri yazmır, satış artmır, brend yadda qalmır. Çünki problem paylaşımda yox, idarəetmənin strategiyasız olmasındadır.',
         howItWorks: [
           { 
@@ -110,7 +110,7 @@ export const marketingServices = [
           },
           { 
             title: '5. Ölçülə bilən nəticələr və nəzarət', 
-            description: 'Trivasoft idarəetməsində baxışlar, kliklər, mesajlar, müraciətlər və satışa təsir ölçülür və analiz olunur. Rəhbərlik sosial medianın real biznes təsirini rəqəmlərlə görür.' 
+            description: 'CivilSofts idarəetməsində baxışlar, kliklər, mesajlar, müraciətlər və satışa təsir ölçülür və analiz olunur. Rəhbərlik sosial medianın real biznes təsirini rəqəmlərlə görür.' 
           }
         ],
         suitableFor: 'Bu xidmət xüsusilə müştəri ilə birbaşa əlaqə quran bizneslər, xidmət və pərakəndə satış sektorları, otellər, klinikalar, təlim mərkəzləri, B2B və B2C şirkətlər üçün vacibdir. Əgər sosial media aktivdir amma satış yoxdur, mesajlar gec cavablanır, brend qarışıqlığı yaşanırsa, problem idarəetmədədir.',
@@ -129,7 +129,7 @@ export const marketingServices = [
       title: 'Reklam Kampaniyalarının Planlanması və İdarə Edilməsi',
       description: 'Onlayn reklam platformalarında effektiv və məqsədyönlü kampaniyaların qurulması.',
       detailedContent: {
-        whatIs: 'Reklam Kampaniyalarının Planlanması və İdarə Edilməsi — biznesin məhsul və xidmətlərini doğru auditoriyaya, doğru zamanda və doğru mesajla çatdırmaq üçün reklam proseslərinin strateji şəkildə qurulması, icrası və optimallaşdırılmasıdır. Bu xidmət sadəcə reklam vermək deyil. Bu xidmət büdcəni qoruyan, satışı artıran, ölçülə bilən nəticə yaradan peşəkar reklam idarəetmə sistemidir. Trivasoft üçün reklam xərc yox, geri dönüşü olan investisiyadır.',
+        whatIs: 'Reklam Kampaniyalarının Planlanması və İdarə Edilməsi — biznesin məhsul və xidmətlərini doğru auditoriyaya, doğru zamanda və doğru mesajla çatdırmaq üçün reklam proseslərinin strateji şəkildə qurulması, icrası və optimallaşdırılmasıdır. Bu xidmət sadəcə reklam vermək deyil. Bu xidmət büdcəni qoruyan, satışı artıran, ölçülə bilən nəticə yaradan peşəkar reklam idarəetmə sistemidir. CivilSofts üçün reklam xərc yox, geri dönüşü olan investisiyadır.',
         whyImportant: 'Bir çox biznesdə reklam verir, büdcə xərcləyir, klik və baxış alır, amma real müştəri gəlmir, satış artmır, geri dönüş (ROI) zəif olur. Bunun səbəbi reklamın özü yox, plansız və nəzarətsiz idarə olunmasıdır.',
         howItWorks: [
           { 
@@ -142,7 +142,7 @@ export const marketingServices = [
           },
           { 
             title: '3. Büdcənin effektiv idarə olunması', 
-            description: 'Trivasoft reklam idarəetməsində büdcə gündəlik nəzarətdə saxlanılır, zəif kampaniyalar dayandırılır, effektiv kampaniyalar gücləndirilir. Bu, reklam xərclərinin optimallaşdırılması deməkdir.' 
+            description: 'CivilSofts reklam idarəetməsində büdcə gündəlik nəzarətdə saxlanılır, zəif kampaniyalar dayandırılır, effektiv kampaniyalar gücləndirilir. Bu, reklam xərclərinin optimallaşdırılması deməkdir.' 
           },
           { 
             title: '4. Ölçülə bilən nəticələr və şəffaflıq', 
@@ -169,7 +169,7 @@ export const marketingServices = [
       title: 'Vizual Kimlik və Brend Dizaynı',
       description: 'Brendin vizual üslubunu formalaşdıran dizayn və identifikasiya həlləri.',
       detailedContent: {
-        whatIs: 'Vizual Kimlik və Brend Dizaynı — brendin bazarda necə görünəcəyini, müştərinin sizi ilk baxışda necə tanıyacağını və yadda saxlayacağını müəyyən edən strateji dizayn prosesidir. Vizual kimlik sadəcə loqo deyil. Vizual kimlik brendin xarakteridir, etibarın ilk təmas nöqtəsidir, müştərinin şüuraltı qərarına təsir edən əsas amildir. Trivasoft üçün dizayn gözəllik yox, satış və etibar yaradan alətdir.',
+        whatIs: 'Vizual Kimlik və Brend Dizaynı — brendin bazarda necə görünəcəyini, müştərinin sizi ilk baxışda necə tanıyacağını və yadda saxlayacağını müəyyən edən strateji dizayn prosesidir. Vizual kimlik sadəcə loqo deyil. Vizual kimlik brendin xarakteridir, etibarın ilk təmas nöqtəsidir, müştərinin şüuraltı qərarına təsir edən əsas amildir. CivilSofts üçün dizayn gözəllik yox, satış və etibar yaradan alətdir.',
         whyImportant: 'Bir çox biznesdə loqo mövcuddur, rənglər istifadə olunur, postlar paylaşılır, amma bütün platformalarda fərqli görünür, peşəkar təəssürat yaratmır, brend yadda qalmır. Bu problem dizaynda yox, vizual kimliyin strateji qurulmamasındadır.',
         howItWorks: [
           { 
@@ -209,7 +209,7 @@ export const marketingServices = [
       title: 'Kontent Marketinqi və Kopiraytinq',
       description: 'Brend üçün dəyər yaradan, məlumatlandıran və satışa yönəldən mətn və məzmunların hazırlanması.',
       detailedContent: {
-        whatIs: 'Kontent Marketinqi və Kopiraytinq — biznesin hədəf auditoriyası ilə doğru dildə, doğru mesajla və doğru platformada ünsiyyət qurmasını təmin edən strateji məzmun istehsalı prosesidir. Bu xidmət sadəcə mətn yazmaq deyil. Bu xidmət müştərinin diqqətini çəkmək, etibar yaratmaq, qərarverməni sürətləndirmək üçün qurulan satış yönümlü kommunikasiya sistemidir. Trivasoft üçün kontent söz yığını yox, satışa xidmət edən alətdir.',
+        whatIs: 'Kontent Marketinqi və Kopiraytinq — biznesin hədəf auditoriyası ilə doğru dildə, doğru mesajla və doğru platformada ünsiyyət qurmasını təmin edən strateji məzmun istehsalı prosesidir. Bu xidmət sadəcə mətn yazmaq deyil. Bu xidmət müştərinin diqqətini çəkmək, etibar yaratmaq, qərarverməni sürətləndirmək üçün qurulan satış yönümlü kommunikasiya sistemidir. CivilSofts üçün kontent söz yığını yox, satışa xidmət edən alətdir.',
         whyImportant: 'Bir çox biznesdə paylaşımlar edilir, mətnlər yazılır, bloqlar dərc edilir, amma müştəri reaksiya vermir, sayt oxunur amma müraciət gəlmir, sosial media aktivdir amma satış yoxdur. Çünki problem kontentin olmasında yox, strateji və satış yönümlü yazılmamasındadır.',
         howItWorks: [
           { 
@@ -249,7 +249,7 @@ export const marketingServices = [
       title: 'Analitika və Marketinq Hesabatları',
       description: 'Marketinq fəaliyyətlərinin nəticələrini ölçən və təhlil edən analitik xidmətlər.',
       detailedContent: {
-        whatIs: 'Analitika və Marketinq Hesabatları — marketinq fəaliyyətlərindən əldə olunan bütün məlumatların (reklamlar, sosial media, sayt trafiki, müraciətlər, satışa təsir və s.) toplanması, analiz edilməsi və qərarverməyə uyğun hesabatlara çevrilməsi prosesidir. Bu xidmətin məqsədi sadəcə rəqəm göstərmək deyil. Məqsəd nəyin işlədiyini, nəyin işləmədiyini, büdcənin hara getdiyini, satışa nəyin təsir etdiyini aydın şəkildə göstərməkdir. Trivasoft üçün analitika marketinqi hissiyatdan çıxarıb rəqəmlə idarə etməyə imkan verən alətdir.',
+        whatIs: 'Analitika və Marketinq Hesabatları — marketinq fəaliyyətlərindən əldə olunan bütün məlumatların (reklamlar, sosial media, sayt trafiki, müraciətlər, satışa təsir və s.) toplanması, analiz edilməsi və qərarverməyə uyğun hesabatlara çevrilməsi prosesidir. Bu xidmətin məqsədi sadəcə rəqəm göstərmək deyil. Məqsəd nəyin işlədiyini, nəyin işləmədiyini, büdcənin hara getdiyini, satışa nəyin təsir etdiyini aydın şəkildə göstərməkdir. CivilSofts üçün analitika marketinqi hissiyatdan çıxarıb rəqəmlə idarə etməyə imkan verən alətdir.',
         whyImportant: 'Bir çox biznesdə reklam verir, postlar paylaşır, kampaniyalar edir, amma real nəticəni ölçmür, hansı kanalın işlədiyini bilmir, büdcəni kor-koranə xərcləyir. Nəticədə rəhbərlik "Marketinqə pul gedir, amma nə qədər gəlir gətirdiyini bilmirik" deyə düşünür. Bu nöqtədə problem marketinqin özündə yox, analitikanın olmamasındadır.',
         howItWorks: [
           { 
@@ -258,7 +258,7 @@ export const marketingServices = [
           },
           { 
             title: '2. Satışa real təsirin ölçülməsi', 
-            description: 'Trivasoft hesabatları marketinqin satışa necə təsir etdiyini, hansı kanalın daha çox müştəri gətirdiyini rəqəmlərlə sübut edir. Bu, marketinqin dəyərini rəhbərliyə göstərir.' 
+            description: 'CivilSofts hesabatları marketinqin satışa necə təsir etdiyini, hansı kanalın daha çox müştəri gətirdiyini rəqəmlərlə sübut edir. Bu, marketinqin dəyərini rəhbərliyə göstərir.' 
           },
           { 
             title: '3. Doğru qərarvermə', 
@@ -270,7 +270,7 @@ export const marketingServices = [
           },
           { 
             title: '5. Rəhbərlik üçün aydın və oxunaqlı hesabatlar', 
-            description: 'Trivasoft hesabatları texniki deyil, aydın, qərarverməyə fokuslanmış olur. CEO və rəhbərlik bir baxışda vəziyyəti anlayır.' 
+            description: 'CivilSofts hesabatları texniki deyil, aydın, qərarverməyə fokuslanmış olur. CEO və rəhbərlik bir baxışda vəziyyəti anlayır.' 
           }
         ],
         suitableFor: 'Bu xidmət xüsusilə aktiv reklam verən şirkətlər, marketinq büdcəsi olan bizneslər, B2B və B2C şirkətlər, rəhbərliyin nəticə görmək istədiyi müəssisələr üçün vacibdir. Əgər reklam xərcləri artır satış artmırsa, marketinqin dəyəri sübut olunmursa, qərarlar hissiyatla verilirsə, analitika qaçılmaz ehtiyacdır.',
@@ -322,7 +322,7 @@ const ServiceMarketing = () => {
   return (
     <>
       <Helmet>
-        <title>Marketinq - Rəqəmsal Marketinq, SMM, SEO | TrivaSoft</title>
+        <title>Marketinq - Rəqəmsal Marketinq, SMM, SEO | CivilSofts</title>
         <meta 
           name="description" 
           content="Rəqəmsal marketinq, SMM, SEO, brend strategiyası və kontent marketinqi xidmətləri. Bakıda marketinq həlləri." 
@@ -331,11 +331,11 @@ const ServiceMarketing = () => {
           name="keywords" 
           content="rəqəmsal marketinq Bakı, SMM xidmətləri, SEO optimallaşdırma, brend strategiyası Azərbaycan" 
         />
-        <link rel="canonical" href="https://trivasoft.az/services/marketing" />
-        <meta property="og:title" content="Marketinq - Rəqəmsal Marketinq, SMM, SEO | TrivaSoft" />
+        <link rel="canonical" href="https://civilsofts.az/services/marketing" />
+        <meta property="og:title" content="Marketinq - Rəqəmsal Marketinq, SMM, SEO | CivilSofts" />
         <meta property="og:description" content="Rəqəmsal marketinq, SMM, SEO, brend strategiyası və kontent marketinqi xidmətləri." />
-        <meta property="og:url" content="https://trivasoft.az/services/marketing" />
-        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
+        <meta property="og:url" content="https://civilsofts.az/services/marketing" />
+        <meta property="og:image" content="https://civilsofts.az/favicon.png" />
       </Helmet>
       <div className="services">
         <section className="services-hero">

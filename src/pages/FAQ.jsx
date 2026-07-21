@@ -8,8 +8,8 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: 'TrivaSoft nə xidmətlər təqdim edir?',
-      answer: 'TrivaSoft AI avtomatlaşdırma, ERP sistemləri və rəqəmsal marketinq xidmətləri təqdim edir. Biznesinizin ehtiyaclarına uyğun geniş spektrli həllər təklif edirik.'
+      question: 'CivilSofts nə xidmətlər təqdim edir?',
+      answer: 'CivilSofts AI avtomatlaşdırma, ERP sistemləri və rəqəmsal marketinq xidmətləri təqdim edir. Biznesinizin ehtiyaclarına uyğun geniş spektrli həllər təklif edirik.'
     },
     {
       question: 'Layihə nə qədər müddətdə tamamlanır?',
@@ -52,20 +52,20 @@ const FAQ = () => {
   return (
     <>
       <Helmet>
-        <title>FAQ - Tez-tez Verilən Suallar | TrivaSoft</title>
+        <title>FAQ - Tez-tez Verilən Suallar | CivilSofts</title>
         <meta 
           name="description" 
-          content="TrivaSoft xidmətləri haqqında tez-tez verilən suallar və cavablar. AI, ERP, marketinq və veb xidmətləri haqqında məlumat." 
+          content="CivilSofts xidmətləri haqqında tez-tez verilən suallar və cavablar. AI, ERP, marketinq və veb xidmətləri haqqında məlumat." 
         />
         <meta 
           name="keywords" 
-          content="TrivaSoft FAQ, tez-tez verilən suallar, AI xidmətləri sualları, ERP sualları" 
+          content="CivilSofts FAQ, tez-tez verilən suallar, AI xidmətləri sualları, ERP sualları" 
         />
-        <link rel="canonical" href="https://trivasoft.az/faq" />
-        <meta property="og:title" content="FAQ - Tez-tez Verilən Suallar | TrivaSoft" />
-        <meta property="og:description" content="TrivaSoft xidmətləri haqqında tez-tez verilən suallar və cavablar." />
-        <meta property="og:url" content="https://trivasoft.az/faq" />
-        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
+        <link rel="canonical" href="https://civilsofts.az/faq" />
+        <meta property="og:title" content="FAQ - Tez-tez Verilən Suallar | CivilSofts" />
+        <meta property="og:description" content="CivilSofts xidmətləri haqqında tez-tez verilən suallar və cavablar." />
+        <meta property="og:url" content="https://civilsofts.az/faq" />
+        <meta property="og:image" content="https://civilsofts.az/favicon.png" />
       </Helmet>
       <div className="faq-page">
         <div className="faq-hero">

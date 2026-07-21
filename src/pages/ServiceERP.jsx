@@ -322,7 +322,7 @@ const ServiceERP = () => {
   return (
     <>
       <Helmet>
-        <title>ERP Həllər - Biznes İdarəetmə Sistemi | TrivaSoft</title>
+        <title>ERP Həllər - Biznes İdarəetmə Sistemi | CivilSofts</title>
         <meta 
           name="description" 
           content="ERP sistemləri: maliyyə, inventar, satış, HR modulları. Biznesinizi vahid sistemdə idarə edin. Bakıda ERP həlləri." 
@@ -331,11 +331,11 @@ const ServiceERP = () => {
           name="keywords" 
           content="ERP sistemləri Azərbaycan, biznes idarəetmə sistemi, ERP konsaltinq Bakı, inventar idarəetmə sistemi" 
         />
-        <link rel="canonical" href="https://trivasoft.az/services/erp" />
-        <meta property="og:title" content="ERP Həllər - Biznes İdarəetmə Sistemi | TrivaSoft" />
+        <link rel="canonical" href="https://civilsofts.az/services/erp" />
+        <meta property="og:title" content="ERP Həllər - Biznes İdarəetmə Sistemi | CivilSofts" />
         <meta property="og:description" content="ERP sistemləri: maliyyə, inventar, satış, HR modulları. Biznesinizi vahid sistemdə idarə edin." />
-        <meta property="og:url" content="https://trivasoft.az/services/erp" />
-        <meta property="og:image" content="https://trivasoft.az/favicon.png" />
+        <meta property="og:url" content="https://civilsofts.az/services/erp" />
+        <meta property="og:image" content="https://civilsofts.az/favicon.png" />
       </Helmet>
       <div className="services">
         <section className="services-hero">

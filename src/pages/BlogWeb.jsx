@@ -41,25 +41,25 @@ const BlogWeb = () => {
   return (
     <>
       <Helmet>
-        <title>Veb-sayt biznes üçün niyə satış alətidir? | TrivaSoft Blog</title>
+        <title>Veb-sayt biznes üçün niyə satış alətidir? | CivilSofts Blog</title>
         <meta 
           name="description" 
-          content="Veb-sayt satış aləti, online satış, satış artırılması və marketinq strategiyası haqqında məqalə. TrivaSoft Web həlləri." 
+          content="Veb-sayt satış aləti, online satış, satış artırılması və marketinq strategiyası haqqında məqalə. CivilSofts Web həlləri." 
         />
         <meta 
           name="keywords" 
           content="veb-sayt satış aləti, online satış, satış artırılması, veb dizayn, marketinq strategiyası, veb-sayt biznes üçün" 
         />
-        <link rel="canonical" href="https://trivasoft.az/blog/website-sales-tool" />
+        <link rel="canonical" href="https://civilsofts.az/blog/website-sales-tool" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Veb-sayt biznes üçün niyə satış alətidir? | TrivaSoft Blog" />
-        <meta property="og:description" content="Veb-sayt satış aləti, online satış və satış artırılması haqqında məqalə. TrivaSoft Web həlləri." />
-        <meta property="og:url" content="https://trivasoft.az/blog/website-sales-tool" />
-        <meta property="og:image" content="https://trivasoft.az/source/web-4.png" />
+        <meta property="og:title" content="Veb-sayt biznes üçün niyə satış alətidir? | CivilSofts Blog" />
+        <meta property="og:description" content="Veb-sayt satış aləti, online satış və satış artırılması haqqında məqalə. CivilSofts Web həlləri." />
+        <meta property="og:url" content="https://civilsofts.az/blog/website-sales-tool" />
+        <meta property="og:image" content="https://civilsofts.az/source/web-4.png" />
         <meta property="article:published_time" content="2025-01-25T00:00:00+04:00" />
-        <meta property="article:author" content="TrivaSoft" />
+        <meta property="article:author" content="CivilSofts" />
         <meta property="article:section" content="Web & Satış" />
         <meta property="article:tag" content="Veb-sayt" />
         <meta property="article:tag" content="Online Satış" />
@@ -68,8 +68,8 @@ const BlogWeb = () => {
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Veb-sayt biznes üçün niyə satış alətidir?" />
-        <meta name="twitter:description" content="Veb-sayt satış aləti və online satış haqqında məqalə. TrivaSoft blog." />
-        <meta name="twitter:image" content="https://trivasoft.az/source/web-4.png" />
+        <meta name="twitter:description" content="Veb-sayt satış aləti və online satış haqqında məqalə. CivilSofts blog." />
+        <meta name="twitter:image" content="https://civilsofts.az/source/web-4.png" />
 
         {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
@@ -78,25 +78,25 @@ const BlogWeb = () => {
             "@type": "BlogPosting",
             "headline": "Veb-sayt biznes üçün niyə satış alətidir?",
             "description": "Veb-sayt satış aləti, online satış, satış artırılması və marketinq strategiyası haqqında məqalə.",
-            "image": "https://trivasoft.az/source/web-4.png",
+            "image": "https://civilsofts.az/source/web-4.png",
             "author": {
               "@type": "Organization",
-              "name": "TrivaSoft",
-              "url": "https://trivasoft.az"
+              "name": "CivilSofts",
+              "url": "https://civilsofts.az"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "TrivaSoft",
+              "name": "CivilSofts",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://trivasoft.az/favicon.png"
+                "url": "https://civilsofts.az/favicon.png"
               }
             },
             "datePublished": "2025-01-25T00:00:00+04:00",
             "dateModified": "2025-01-25T00:00:00+04:00",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://trivasoft.az/blog/website-sales-tool"
+              "@id": "https://civilsofts.az/blog/website-sales-tool"
             },
             "articleSection": "Web & Satış",
             "keywords": "veb-sayt satış aləti, online satış, satış artırılması, veb dizayn"
@@ -122,14 +122,14 @@ const BlogWeb = () => {
               <div className="blog-meta">
                 <span className="blog-category" itemProp="articleSection">Web & Satış</span>
               </div>
-              <meta itemProp="author" content="TrivaSoft" />
-              <meta itemProp="publisher" content="TrivaSoft" />
+              <meta itemProp="author" content="CivilSofts" />
+              <meta itemProp="publisher" content="CivilSofts" />
             </header>
 
             <div className="blog-image">
               <img 
                 src="/source/web-4.png" 
-                alt="Veb-sayt Satış Aləti - Online Satış - TrivaSoft" 
+                alt="Veb-sayt Satış Aləti - Online Satış - CivilSofts" 
                 className="blog-featured-image"
                 loading="eager"
               />
@@ -200,7 +200,7 @@ const BlogWeb = () => {
             <div className="blog-image">
               <img 
                 src="/source/web-2.jpg" 
-                alt="Online Satış və Satış Artırılması - TrivaSoft" 
+                alt="Online Satış və Satış Artırılması - CivilSofts" 
                 className="blog-content-image"
                 loading="lazy"
               />
@@ -279,7 +279,7 @@ const BlogWeb = () => {
             <div className="blog-image">
               <img 
                 src="/source/web-3.png" 
-                alt="Proqramlaşdırma və Veb İnkişaf - TrivaSoft" 
+                alt="Proqramlaşdırma və Veb İnkişaf - CivilSofts" 
                 className="blog-content-image"
                 loading="lazy"
               />
@@ -307,9 +307,9 @@ const BlogWeb = () => {
             </div>
 
             <div className="blog-section">
-              <h2>TrivaSoft Web həlləri nəyi fərqli edir?</h2>
+              <h2>CivilSofts Web həlləri nəyi fərqli edir?</h2>
               <p>
-                TrivaSoft veb-saytı:
+                CivilSofts veb-saytı:
               </p>
               <ul className="blog-list">
                 <li>dizayn layihəsi kimi yox,</li>
@@ -353,7 +353,7 @@ const BlogWeb = () => {
             </div>
 
             <div className="blog-cta">
-              <h3>TrivaSoft Web Həlləri</h3>
+              <h3>CivilSofts Web Həlləri</h3>
               <p>Satış üçün qurulan saytlar. Ölçülə bilən nəticələr.</p>
               <div className="blog-cta-buttons">
                 <Link to="/services/web" className="btn btn-primary">

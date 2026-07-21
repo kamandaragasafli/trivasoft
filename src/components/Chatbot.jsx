@@ -6,7 +6,7 @@ const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [messages, setMessages] = useState([
     {
-      text: 'Salam! TrivaSoft-a xoş gəlmisiniz. Sizə necə kömək edə bilərəm?',
+      text: 'Salam! CivilSofts-a xoş gəlmisiniz. Sizə necə kömək edə bilərəm?',
       sender: 'bot'
     }
   ])
@@ -47,16 +47,16 @@ const Chatbot = () => {
     }
 
     try {
-      const systemPrompt = `Sən TrivaSoft saytının chatbotusan.
+      const systemPrompt = `Sən CivilSofts saytının chatbotusan.
 - Dil: əsasən Azərbaycan türkcəsi, lazım olsa sadə türkçe.
-- Şirkət: TrivaSoft – AI avtomatlaşdırma, Web həllər, ERP sistemləri və rəqəmsal marketinq xidməti göstərir.
+- Şirkət: CivilSofts – AI avtomatlaşdırma, Web həllər, ERP sistemləri və rəqəmsal marketinq xidməti göstərir.
 - Xidmətlər: 
   * AI Avtomatlaşdırma: AI Chat Bot, Korporativ Satış Sistemi, Hotel AI ChatBot, AI SMM + ChatBot
   * Web Həllər: Web-Saytların Hazırlanması, E-commerce, Mobil Tətbiqlər, SEO Xidmətləri
   * ERP Həllər: ERP Sistem Quraşdırılması, Maliyyə & Mühasibat, Anbar & Stok İdarəetməsi, Satış & Müştəri İdarəetməsi, HR Sistemi, Hesabat & Analitika
   * Marketinq: Rəqəmsal Marketinq Strategiyası, Brend Strategiyası, Sosial Media Marketinq, Reklam Kampaniyaları, Vizual İdentiya, Kontent Marketinq, Analitika
 - Səhifələr: Ana səhifə, Xidmətlər (AI Avtomatlaşdırma, Web Həllər, ERP Həllər, Marketinq), Haqqımızda, FAQ, Əlaqə.
-- Əlaqə: Nizami street AFF Business House, Bakı, Azərbaycan. Telefon: +994 55 386 12 11, Email: info@trivasoft.az.
+- Əlaqə: Nizami street AFF Business House, Bakı, Azərbaycan. Telefon: +994 55 386 12 11, Email: info@civilsofts.az.
 
 SİPARİŞ ALMA TALİMATI (ÇOX MÜHİMDİR):
 Əgər istifadəçi "sipariş", "sifariş", "xidmət sifarişi", "layihə istəyirəm", "sifariş vermək istəyirəm" və ya oxşar bir şey deyirsə:
@@ -136,7 +136,7 @@ SIPARIS_TAMAMLANDI:
 
           if (serviceID && templateID && publicKey) {
             const siparisMesaji = `
-Yeni Sifariş - TrivaSoft Chatbot
+Yeni Sifariş - CivilSofts Chatbot
 
 Müştəri Məlumatları:
 - Ad Soyad: ${siparisData.isim || 'Təyin edilməyib'}
@@ -147,7 +147,7 @@ Sifariş Detayları:
 ${siparisData.siparis_detaylari || 'Təyin edilməyib'}
 
 ---
-Bu sifariş TrivaSoft chatbot vasitəsilə alınmışdır.
+Bu sifariş CivilSofts chatbot vasitəsilə alınmışdır.
 Tarix: ${new Date().toLocaleString('az-AZ')}
             `.trim()
 
@@ -156,8 +156,8 @@ Tarix: ${new Date().toLocaleString('az-AZ')}
               templateID,
               {
                 from_name: siparisData.isim || 'Chatbot İstifadəçisi',
-                from_email: siparisData.email || 'chatbot@trivasoft.az',
-                reply_to: siparisData.email || 'chatbot@trivasoft.az',
+                from_email: siparisData.email || 'chatbot@civilsofts.az',
+                reply_to: siparisData.email || 'chatbot@civilsofts.az',
                 message: siparisMesaji,
                 to_name: siparisData.isim || 'Müştəri',
               },
@@ -196,7 +196,7 @@ Tarix: ${new Date().toLocaleString('az-AZ')}
             .replace(/\{"isim"[\s\S]*?\}/g, '')
             .trim()
           const botResponse = {
-            text: cleanResponse + '\n\n⚠️ Sifariş qeydə alındı, lakin email göndərilmədi. Zəhmət olmasa birbaşa bizimlə əlaqə saxlayın: info@trivasoft.az',
+            text: cleanResponse + '\n\n⚠️ Sifariş qeydə alındı, lakin email göndərilmədi. Zəhmət olmasa birbaşa bizimlə əlaqə saxlayın: info@civilsofts.az',
             sender: 'bot'
           }
           setMessages(prev => [...prev, botResponse])
@@ -260,16 +260,16 @@ Tarix: ${new Date().toLocaleString('az-AZ')}
     }
 
     try {
-      const systemPrompt = `Sən TrivaSoft saytının chatbotusan.
+      const systemPrompt = `Sən CivilSofts saytının chatbotusan.
 - Dil: əsasən Azərbaycan türkcəsi, lazım olsa sadə türkçe.
-- Şirkət: TrivaSoft – AI avtomatlaşdırma, Web həllər, ERP sistemləri və rəqəmsal marketinq xidməti göstərir.
+- Şirkət: CivilSofts – AI avtomatlaşdırma, Web həllər, ERP sistemləri və rəqəmsal marketinq xidməti göstərir.
 - Xidmətlər: 
   * AI Avtomatlaşdırma: AI Chat Bot, Korporativ Satış Sistemi, Hotel AI ChatBot, AI SMM + ChatBot
   * Web Həllər: Web-Saytların Hazırlanması, E-commerce, Mobil Tətbiqlər, SEO Xidmətləri
   * ERP Həllər: ERP Sistem Quraşdırılması, Maliyyə & Mühasibat, Anbar & Stok İdarəetməsi, Satış & Müştəri İdarəetməsi, HR Sistemi, Hesabat & Analitika
   * Marketinq: Rəqəmsal Marketinq Strategiyası, Brend Strategiyası, Sosial Media Marketinq, Reklam Kampaniyaları, Vizual İdentiya, Kontent Marketinq, Analitika
 - Səhifələr: Ana səhifə, Xidmətlər (AI Avtomatlaşdırma, Web Həllər, ERP Həllər, Marketinq), Haqqımızda, FAQ, Əlaqə.
-- Əlaqə: Nizami street AFF Business House, Bakı, Azərbaycan. Telefon: +994 55 386 12 11, Email: info@trivasoft.az.
+- Əlaqə: Nizami street AFF Business House, Bakı, Azərbaycan. Telefon: +994 55 386 12 11, Email: info@civilsofts.az.
 
 SİPARİŞ ALMA TALİMATI (ÇOX MÜHİMDİR):
 Əgər istifadəçi "sipariş", "sifariş", "xidmət sifarişi", "layihə istəyirəm", "sifariş vermək istəyirəm" və ya oxşar bir şey deyirsə:
@@ -371,7 +371,7 @@ SIPARIS_TAMAMLANDI:
           if (serviceID && templateID && publicKey) {
             // Sipariş detaylarını formatla
             const siparisMesaji = `
-Yeni Sifariş - TrivaSoft Chatbot
+Yeni Sifariş - CivilSofts Chatbot
 
 Müştəri Məlumatları:
 - Ad Soyad: ${siparisData.isim || 'Təyin edilməyib'}
@@ -382,13 +382,13 @@ Sifariş Detayları:
 ${siparisData.siparis_detaylari || 'Təyin edilməyib'}
 
 ---
-Bu sifariş TrivaSoft chatbot vasitəsilə alınmışdır.
+Bu sifariş CivilSofts chatbot vasitəsilə alınmışdır.
 Tarix: ${new Date().toLocaleString('az-AZ')}
             `.trim()
 
             console.log('📤 Email göndərilir...', {
-              to: 'info@trivasoft.az',
-              from: siparisData.email || 'chatbot@trivasoft.az',
+              to: 'info@civilsofts.az',
+              from: siparisData.email || 'chatbot@civilsofts.az',
               subject: 'Yeni Sifariş - Chatbot'
             })
 
@@ -397,7 +397,7 @@ Tarix: ${new Date().toLocaleString('az-AZ')}
               templateID,
               {
                 from_name: siparisData.isim || 'Chatbot İstifadəçisi',
-                from_email: siparisData.email || 'chatbot@trivasoft.az',
+                from_email: siparisData.email || 'chatbot@civilsofts.az',
                 message: siparisMesaji,
               },
               publicKey
@@ -449,7 +449,7 @@ Tarix: ${new Date().toLocaleString('az-AZ')}
             .replace(/\{"isim"[\s\S]*?\}/g, '')
             .trim()
           const botResponse = {
-            text: cleanResponse + '\n\n⚠️ Sifariş qeydə alındı, lakin email göndərilmədi. Zəhmət olmasa birbaşa bizimlə əlaqə saxlayın: info@trivasoft.az',
+            text: cleanResponse + '\n\n⚠️ Sifariş qeydə alındı, lakin email göndərilmədi. Zəhmət olmasa birbaşa bizimlə əlaqə saxlayın: info@civilsofts.az',
             sender: 'bot'
           }
           setMessages(prev => [...prev, botResponse])
@@ -503,7 +503,7 @@ Tarix: ${new Date().toLocaleString('az-AZ')}
             <div className="chatbot-header-info">
               <div className="chatbot-avatar">T</div>
               <div>
-                <h3>TrivaSoft Dəstək</h3>
+                <h3>CivilSofts Dəstək</h3>
                 <p>Onlayn</p>
               </div>
             </div>
